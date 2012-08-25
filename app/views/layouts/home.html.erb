@@ -4,7 +4,7 @@
   <%= render 'layouts/head_tag' %>
 </head><!-- END HEAD TAG -->
 <body>
-<div id="wrapper"><!-- MAIN WRAPPER -->
+<div id="wrapper" class="big-banner"><!-- MAIN WRAPPER -->
   <div id="header"><!-- HEADER -->
     <div class="top-block"><!-- TOP BLOCK -->
       <div class="top-holder"><!-- TOP HOLDER -->
@@ -16,13 +16,14 @@
       <div class="rays"><!-- RAYS -->
         <div class="header-area"><!-- HEADER AREA -->
           <%= render 'layouts/header_area' %>
+          <%= render 'home/homepage_slider' %>
         </div><!-- END HEADER AREA -->
       </div><!-- END RAYS -->
     </div><!-- END HEADER HOLDER -->
   </div><!-- END HEADER -->
   <div id="main">
     <%= yield %>
-    <div id="footer"><!-- TOP FOOTER -->
+    <div id="footer"><!-- FOOTER -->
       <div class= "footer-area"><!-- FOOTER AREA -->
         <div class="footer-wrapper"><!-- FOOTER WRAPPER -->
           <div class="footer-holder"><!-- FOOTER HOLDER -->
