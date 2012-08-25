@@ -2,10 +2,220 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/PHILIPS.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/PHYSIO.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ZOLL.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/404_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/arrow-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/arrow-up-footer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/arrow-up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-accordion-close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-accordion-open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-accordion-opener.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-blog-comments-content-author.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-blog-comments-content.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-blog-comments-wrap.gif.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-blog-comments-wrap.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-buttons-sprite-autumn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-buttons-sprite-bluegrey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-buttons-sprite-cherry.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-buttons-sprite-coffee.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-buttons-sprite-coolblue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-buttons-sprite-fire.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-buttons-sprite-forestgreen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-buttons-sprite-golden.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-buttons-sprite-grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-buttons-sprite-limegreen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-buttons-sprite-periwinkle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-buttons-sprite-pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-buttons-sprite-purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-buttons-sprite-royalblue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-buttons-sprite-silver.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-buttons-sprite-skyblue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-buttons-sprite-teal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-buttons-sprite-tealgrey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-buttons-sprite-violet.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-buttons-sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-drop-li-b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-drop-li-t.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-header-holder.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-header-light.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-home-banner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-horz-active-neutral.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-input-button-footer.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-input-comment.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-input.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-iphone-sidebar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-ka-form.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-latest-tweet.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-link-top.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-link-top2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-main-light.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-main.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-post-blog-wrap.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-post-footer-categories.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-post-footer-tags.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-post-footer.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-sidebar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-tab-box.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-top-block-light.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-ui-drop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-ui-targets.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-ui-toplink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg-video.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg_quote_wrap.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/bg_tool_shadow.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/default-grav.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/feed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/global-sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/home-preloader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/ico1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/ico2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/ico3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/ico4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/image-frame-portrait-modern.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/image-frame-portrait-shadow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/image-frame-sprite-square.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/image-frame-sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/img-cont.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/img-zoom-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/img-zoom-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/img-zoom-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/img-zoom-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/img1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/jquery-btm-shdw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/none.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/preload-small-white.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/preload-small.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/preload-white.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/preload.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/prettyPhoto/light_square/btnNext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/prettyPhoto/light_square/btnPrevious.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/prettyPhoto/light_square/default_thumbnail.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/prettyPhoto/light_square/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/prettyPhoto/light_square/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/rays-big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/rays.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/separator-shadow-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/separator-shadow-xtra-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/separator-shadow.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/separator-toolbar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/separator3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/separator4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/seperator-main-nav-dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/seperator-main-nav-light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/seperator-main-nav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/shadowBG-full.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/shadowBG.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/social-icons/delicious.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/social-icons/digg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/social-icons/email.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/social-icons/facebook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/social-icons/flickr.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/social-icons/foursquare.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/social-icons/linkedin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/social-icons/rss.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/social-icons/twitter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/social-icons/youtube.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/aha.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/all_AEDs.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/button_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/captcha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/complynet.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/erc_logo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/err.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ers.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/form_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/ilcor.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/karma-grey/bg-big-header-holder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/karma-grey/bg-drop-li-b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/karma-grey/bg-drop-li-t.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/karma-grey/bg-footer-bottom.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/karma-grey/bg-footer.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/karma-grey/bg-header-holder.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/karma-grey/separator1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/karma-grey/separator2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/left_pic.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logo400x200.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/middle_pic.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/oversight.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/pencil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/right_pic.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/secondary-grey/6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/secondary-grey/bg-horz-active.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/secondary-grey/bg-jquery-bnr.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/secondary-grey/bg-jquery-bnr.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/secondary-grey/bg-post-content.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/secondary-grey/bg-tools-b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/secondary-grey/bg-tools-c.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/secondary-grey/bg-tools-t.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/secondary-grey/bullet1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/secondary-grey/bullet2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/secondary-grey/bullet3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/secondary-grey/bullet4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/secondary-grey/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/service.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/success.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/training.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/fonts/ColabBol-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/fonts/ColabBol-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/fonts/ColabBol-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/fonts/ColabLig-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/fonts/ColabLig-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/fonts/ColabLig-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/fonts/ColabMed-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/fonts/ColabMed-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/fonts/ColabMed-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/fonts/ColabReg-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/fonts/ColabReg-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/fonts/ColabReg-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/fonts/ColabThi-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/fonts/ColabThi-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/fonts/ColabThi-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/swf/CU3ER.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/swf/expressinstall.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/setup_mail.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/development_mail_interceptor.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/labeled_form_builder.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tasks/data.rake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/CU3ER.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/application.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/iphorm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jquery-1-slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jquery-1.5.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jquery-2-slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jquery-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jquery.cycle.all.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/karma.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/plugins.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/scripts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/swfobject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/testimonial-slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/fonts/ColabBol-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/fonts/ColabLig-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/fonts/ColabMed-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/fonts/ColabReg-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/fonts/ColabThi-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/karma-grey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/lt8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/secondary-grey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/standard.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/swf/full-width-dark-no-loader.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/swf/full-width-dark.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/swf/full-width-light-no-loader.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/swf/full-width-light.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/swf/thumbnails-dark-no-loader.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/swf/thumbnails-dark.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/swf/thumbnails-light-no-loader.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/swf/thumbnails-light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
     </list>
     <ignored path="lifelinei.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,6 +253,7 @@
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -114,7 +325,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -134,6 +345,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config/initializers" />
+      <recent name="$PROJECT_DIR$/lib/tasks" />
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
@@ -393,7 +607,11 @@
       <created>1345926089552</created>
       <updated>1345926089552</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Modified configuration.">
+      <created>1345926360929</created>
+      <updated>1345926360929</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -455,7 +673,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added mew favicon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified configuration." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -471,6 +689,7 @@
     <MESSAGE value="Changed README doc" />
     <MESSAGE value="Removed asset pipeline from Gemfile." />
     <MESSAGE value="Added mew favicon" />
+    <MESSAGE value="Modified configuration." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -528,6 +747,60 @@
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="50" selection-start="772" selection-end="772" vertical-scroll-proportion="0.2402659">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="7" selection-start="1693" selection-end="1693" vertical-scroll-proportion="0.6381323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/tasks/data.rake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/setup_mail.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/development_mail_interceptor.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="24" selection-start="175" selection-end="175" vertical-scroll-proportion="0.106362775">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/labeled_form_builder.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

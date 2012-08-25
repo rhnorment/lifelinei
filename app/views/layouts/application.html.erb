@@ -1,14 +1,42 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Lifelinei</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head><!-- HEAD TAG -->
+  <%= render 'layouts/head_tag' %>
+</head><!-- END HEAD TAG -->
 <body>
-
-<%= yield %>
-
+<div id="wrapper" class="big-banner"><!-- MAIN WRAPPER -->
+  <div id="header"><!-- HEADER -->
+    <div class="top-block"><!-- TOP BLOCK -->
+      <div class="top-holder"><!-- TOP HOLDER -->
+        <%= render 'layouts/top_toolbar_left' %>
+        <%= render 'layouts/top_toolbar_right' %>
+      </div><!-- END TOP HOLDER -->
+    </div><!-- END TOP Block -->
+    <div class="header-holder"><!-- HEADER HOLDER -->
+      <div class="rays"><!-- RAYS -->
+        <div class="header-area"><!-- HEADER AREA -->
+          <%= render 'layouts/header_area' %>
+          <%= render 'home/homepage_slider' %>
+        </div><!-- END HEADER AREA -->
+      </div><!-- END RAYS -->
+    </div><!-- END HEADER HOLDER -->
+  </div><!-- END HEADER -->
+  <div id="main">
+    <%= yield %>
+    <div id="footer"><!-- FOOTER -->
+      <div class= "footer-area"><!-- FOOTER AREA -->
+        <div class="footer-wrapper"><!-- FOOTER WRAPPER -->
+          <div class="footer-holder"><!-- FOOTER HOLDER -->
+            <%= render 'layouts/footer' %>
+          </div><!-- END FOOTER HOLDER -->
+        </div><!-- END FOOTER WRAPPER -->
+      </div><!-- END FOOTER AREA -->
+    </div><!-- END FOOTER -->
+    <div id=footer_bottom><!-- FOOTER BOTTOM -->
+      <%= render 'layouts/footer_bottom' %>
+    </div><!-- END FOOTER BOTTOM -->
+  </div><!-- END MAIN -->
+</div><!-- END MAIN WRAPPER -->
+<%= debug(params) if Rails.env.development? %>
 </body>
 </html>
