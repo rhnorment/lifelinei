@@ -1,0 +1,41 @@
+<div class="one_fourth"><!-- FIRST COLUMN -->
+  <h3>LifeLine Blog</h3><!-- BLOG UPDATES -->
+  <div class="footer_post">
+    <h4><%= link_to "Latest Blogs", "#" %></h4>
+    <p>
+      Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Lorem ipsum dolor sit amet...
+    </p>
+  </div><!-- END BLOG UPDDATES -->
+</div><!-- END FIRST COLUMN -->
+<div class="one_fourth"><!-- SECOND COLUMN -->
+  <h3>Useful Links</h3>
+  <ul class="blogroll">
+    <li><%= link_to 'FDA Safety', "http://www.fda.gov/Safety/MedWatch/default.htm", :target => "_blank" %></li>
+    <li><%= link_to 'American Heart Association', "http://www.heart.org", :target => "_blank" %></li>
+    <li><%= link_to 'European Resuscitation Council', "https://www.erc.edu", :target => "_blank" %></li>
+    <li><%= link_to 'ILCOR', "http://www.ilcor.org", :target => "_blank" %></li>
+  </ul>
+</div><!-- END SECOND COLUMN -->
+<div class="one_fourth"><!-- THIRD COLUMN -->
+  <h3>Follow Us</h3>
+  <ul class="social_icons">
+    <li><%= link_to 'Twitter', "http://www.twitter.com/lifeline", :class => 'twitter', :target => "_blank"  %></li>
+    <li><%= link_to 'Facebook', "http://www.facebook.com/LifeLinei", :class => 'facebook', :target => "_blank"  %></li>
+    <li><%= link_to 'LinkedIn', "http://www.linkedin.com/company/lifeline-incorporated", :class => 'linkedin', :target => "_blank"  %></li>
+    <li><%= link_to 'Contact Us', new_contact_path, :class => 'email' %></li>
+  </ul>
+</div><!-- END THIRD COLUMN -->
+<div class="one_fourth_last"><!-- FINAL FOOTER COLUMN -->
+  <h3>Join our Mailing List</h3>
+  <div id="mc_signup">
+    <form method="post" action="http://truethemes.us2.list-manage1.com/subscribe/post?u=e2deed44e98de9950b14e7fb3&amp;id=47d7d9240b" id="mc_signup_form">
+      <p><input type="hidden" id="mc_submit_type" name="mc_submit_type" value="html" />
+        <input type="hidden" name="mcsf_action" value="mc_submit_signup_form" />
+        <input type="hidden" id="_mc_submit_signup_form_nonce" name="_mc_submit_signup_form_nonce" value="93e0dda974" />
+        <label for="mce-EMAIL" class="mc_var_label">Email Address:</label>
+        <br />
+        <input type="text" size="18" value="" name="EMAIL" id="mce-EMAIL" class="mc_input"/></p>
+      <p><br /><input type="submit" name="mc_signup_submit" id="mc_signup_submit" value="Subscribe" class="button" /></p>
+    </form>
+  </div><!-- END MAILING LIST SIGNUP -->
+</div><!-- END FOURTH COLUMN -->
