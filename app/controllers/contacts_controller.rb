@@ -1,7 +1,5 @@
 class ContactsController < ApplicationController
 
-  layout 'contact_us'
-
   def new
     @title = "Contact Us"
     @contact = Contact.new
