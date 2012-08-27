@@ -21,7 +21,7 @@ Lifelinei::Application.routes.draw do
 
   # Products paths:
   get "products/main",                      as: 'products'
-  get "products/aed",                       as: 'aed'
+  get "products/aeds",                      as: 'aeds'
   get "products/accessories",               as: 'accessories'
   get "products/customer_reviews",          as: 'customer_reviews'
   get "products/professional_reviews",      as: 'professional_reviews'

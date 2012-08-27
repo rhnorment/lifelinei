@@ -1,0 +1,27 @@
+<ul class="sub-menu"><!-- start sub menu -->
+  <li class=<%= get_action_klass('main') %>>
+    <%= link_to products_path do %>
+        <span>Our Products</span>
+    <% end %>
+  </li>
+  <li class=<%= get_action_klass('aeds') %>>
+    <%= link_to aeds_path do %>
+        <span>AEDs</span>
+    <% end %>
+  </li>
+  <li class=<%= get_action_klass('accessories') %>>
+    <%= link_to accessories_path do %>
+        <span>AED Accessories</span>
+    <% end %>
+  </li>
+  <li class=<%= get_action_klass('customer_reviews') %>>
+    <%= link_to customer_reviews_path do %>
+        <span>Customer Reviews</span>
+    <% end %>
+  </li>
+  <li class=<%= get_action_klass('professional_reviews') %>>
+    <%= link_to professional_reviews_path do %>
+        <span>Professional Reviews</span>
+    <% end %>
+  </li>
+</ul><!-- end sub menu -->
