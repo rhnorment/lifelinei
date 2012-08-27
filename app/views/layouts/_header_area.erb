@@ -15,17 +15,26 @@
       <li><%= link_to new_contact_path do %><span>Contact Us</span><% end %></li>
     </ul>
   </li><!-- END ABOUT US LIVE MENU -->
-  <li class=<%= get_controller_klass('solutions') %>><!-- ABOUT US MENU -->
+  <li class=<%= get_controller_klass('solutions') %>><!-- SOLTION SMENU -->
     <%= link_to solutions_path do %>
         <span><strong>Our Solutions</strong><span class="navi-description">our solutions</span></span>
     <% end %>
+    <ul class="sub-menu">
+      <li><%= link_to schools_path do %><span>Scholastic Solutions</span><% end %></li>
+      <li><%= link_to businesses_path do %><span>Business Solutions</span><% end %></li>
+      <li><%= link_to dentists_path do %><span>Dental Office Solutions</span><% end %></li>
+      <li><%= link_to fire_path do %><span>Fire Department Solutions</span><% end %></li>
+      <li><%= link_to police_path do %><span>Police Department Solutions</span><% end %></li>
+      <li><%= link_to churches_path do %><span>Church Solutions</span><% end %></li>
+      <li><%= link_to individuals_path do %><span>Individual Solutions</span><% end %></li>
+    </ul>
   </li><!-- END ABOUT US LIVE MENU -->
   <li class=<%= get_controller_klass('products') %>><!-- PRODUCTS MENU -->
     <%= link_to products_path do %>
         <span><strong>Our Products</strong><span class="navi-description">about our products</span></span>
     <% end %>
     <ul class="sub-menu">
-      <li><%= link_to aed_path do %><span>AEDs</span><% end %></li>
+      <li><%= link_to aeds_path do %><span>AEDs</span><% end %></li>
       <li><%= link_to accessories_path do %><span>AED Accessories</span><% end %></li>
       <li><%= link_to customer_reviews_path do %><span>Customer Reviews</span><% end %></li>
       <li><%= link_to professional_reviews_path do %><span>Professional Reviews</span><% end %></li>
@@ -41,7 +50,7 @@
       <li><%= link_to training_path do %><span>Certified Training</span><% end %></li>
       <li><%= link_to financing_path do %><span>Program Financing</span><% end %></li>
       <li><%= link_to laws_path do %><span>Rules & Regulations</span><% end %></li>
-      <li><%= link_to faq_path do %><span>FAQs</span><% end %></li>
+      <li><%= link_to faqs_path do %><span>FAQs</span><% end %></li>
       <li><%= link_to help_path do %><span>LifeLine Help</span><% end %></li>
     </ul>
   </li><!-- END SERVICES MENU -->

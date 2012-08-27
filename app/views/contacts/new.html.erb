@@ -1,0 +1,39 @@
+<%= stylesheet_link_tag 'standard' %>
+<% provide(:title, "Contact Us") %>
+
+<div class="main-area"><!-- main area -->
+  <!-- title bar -->
+  <%= render 'title_bar' %><!-- title bar partial -->
+  <!-- end title bar -->
+  <div class="main-holder"><!-- main holder -->
+    <div id="content" class="content_full_width contact_iphone_content"><!-- content -->
+      <div class="two_thirds"><!-- 2/3 column -->
+        <% flash.each do |key, value| %>
+            <p class="message_<%= key %>">
+              <%= value %>
+            </p>
+        <% end %>
+        <h2>Get in Touch</h2>
+        <p>
+          We are here to serve your needs.  Fill out the contact form below and a LifeLine representative
+          will contact you shortly.
+        </p>
+        <div class="iphorm-outer"><!-- iphorm outer -->
+          <div class="iphorm-wrapper"><!-- iphorm wrapper -->
+            <div class='iphorm-inner'><!-- iphorm inner -->
+              <div class='iphorm-message'></div><!-- end iphorm message -->
+              <div class='iphorm-container clearfix'><!-- iphorm container -->
+                <%= render 'form' %>
+              </div><!-- end iphorm container -->
+            </div><!-- iphorm wrapper -->
+          </div><!-- iphorm inner -->
+        </div><!-- end iphorm outer -->
+      </div><!-- end first column -->
+      <!-- ******************** end first column **************************-->
+      <!-- ******************** start second column ***********************-->
+      <div class="one_third_last contact_iphone"><!-- start last column -->
+        <%= render 'contact_info_iphone' %>
+      </div><!-- end second column -->
+    </div><!-- end content --->
+  </div><!-- end main holder -->
+</div><!-- end main area -->
