@@ -1,0 +1,16 @@
+<div class="tools"><!-- tools -->
+  <div class="holder"><!-- holder -->
+    <div class="frame"><!-- frame -->
+      <h1><%= @title %></h1>
+      <p class="breadcrumb"><!-- breadcrumb -->
+        <%= link_to 'Home', root_path %>
+        <% if current_page?(:controller => 'services', :action => 'main') %>
+            <span class="current_crumb">LifeLine Services</span>
+        <% else %>
+            <%= link_to 'LifeLine Services', services_path %>
+            <span class="current_crumb"><%= @title %></span>
+        <% end %>
+      </p><!-- end breadcrumb -->
+    </div><!-- end frame -->
+  </div><!-- end holder -->
+</div><!-- end tools -->

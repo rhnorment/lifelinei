@@ -1,21 +1,5 @@
 Lifelinei::Application.routes.draw do
 
-  get "services/main"
-
-  get "services/administration"
-
-  get "services/oversight"
-
-  get "services/training"
-
-  get "services/financing"
-
-  get "services/laws"
-
-  get "services/faqs"
-
-  get "services/help"
-
   # Root path:
   root                                      to: 'home#index'
 
@@ -49,7 +33,7 @@ Lifelinei::Application.routes.draw do
   get "services/training",                  as:   'training'
   get "services/financing",                 as:   'financing'
   get "services/laws",                      as:   'laws'
-  get "services/faq",                       as:   'faq'
+  get "services/faqs",                      as:   'faqs'
   get "services/help",                      as:   'help'
 
 end
