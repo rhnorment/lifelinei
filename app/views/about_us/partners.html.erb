@@ -1,0 +1,28 @@
+<% provide(:title, "Our Partners") %>
+
+<div class="main-area"><!-- main area -->
+  <%= render 'title_bar' %>
+  <div class="main-holder"><!-- main holder -->
+    <div id="content"><!-- content -->
+      <div class="content_right_sidebar"><!-- left content -->
+        <%= link_to image_tag("complynet.jpg", size: "500x150"), "http://www.complynet.com", target: "_blank" %><br /><br />
+        <p>
+          ComplyNet Corporation provides compliance and risk management systems to automotive, truck and implement businesses in twenty states.
+          The company, founded in 1994, helps business owners start and maintain systems that keep them in compliance and reduce insurance claims.
+          ComplyNet delivers its services by providing on-site consultants and on-line tools.  The consultants perform inspections, consult with
+          management, write plans and deliver training.  The on-line tools manage documents, deliver and track training, and provide reference information.
+        </p>
+        <p>
+          In a challenging business environment it is difficult to stay on top of changing regulations and implement best practices.
+          ComplyNet subscribers enjoy the peace of mind of having experts efficiently and affordably handle their compliance and risk management needs.
+        <p>
+          Contact John or Pat Tracy at 651-457-4444
+        </p><br />
+      </div><!-- end left content -->
+      <br class="clear" />
+    </div><!-- end content -->
+    <div id="sub_nav" class="nav_right_sub_nav"><!-- start sub nav -->
+      <%= render 'sub_nav' %>
+    </div><!-- end sub nav -->
+  </div><!-- end main holder -->
+</div><!-- end main area -->

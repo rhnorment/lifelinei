@@ -1,0 +1,27 @@
+<ul class="sub-menu"><!-- start sub menu -->
+  <li class=<%= get_action_klass('main') %>>
+    <%= link_to about_us_path do %>
+        <span>About Us</span>
+    <% end %>
+  </li>
+  <li class=<%= get_action_klass('mission') %>>
+    <%= link_to mission_path do %>
+        <span>Our Mission</span>
+    <% end %>
+  </li>
+  <li class=<%= get_action_klass('testimonials') %>>
+    <%= link_to testimonials_path do %>
+        <span>Customer Testimonials</span>
+    <% end %>
+  </li>
+  <li class=<%= get_action_klass('partners') %>>
+    <%= link_to partners_path do %>
+        <span>Our Partners</span>
+    <% end %>
+  </li>
+  <li>
+    <%= link_to new_contact_path do %>
+        <span>Contact Us</span>
+    <% end %>
+  </li>
+</ul><!-- end sub menu -->
