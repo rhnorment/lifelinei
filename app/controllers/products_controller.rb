@@ -5,8 +5,7 @@ class ProductsController < ApplicationController
   end
 
   def aed
-    @title = "AEDs"
-    @aeds = Aed.all
+    @title = "AED Matrix"
   end
 
   def accessories
