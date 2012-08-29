@@ -18,6 +18,7 @@ class ServicesController < ApplicationController
 
   def faqs
     @title = "FAQs"
+    @faqs = Faq.paginate(page: params[:page]).order("number ASC")
   end
 
   def financing

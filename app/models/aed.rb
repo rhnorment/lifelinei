@@ -6,6 +6,7 @@
 #  name               :string(255)
 #  image_url          :string(255)
 #  battery_life       :string(255)
+#  battery_type       :string(255)
 #  energy_type        :string(255)
 #  pad_type           :string(255)
 #  pad_life           :string(255)
