@@ -4,8 +4,8 @@ class ProductsController < ApplicationController
     @title = "Our Products"
   end
 
-  def aed
-    @title = "AED Matrix"
+  def aeds
+    @title = "AEDs"
   end
 
   def accessories
