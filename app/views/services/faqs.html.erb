@@ -5,7 +5,15 @@
   <div class="main-holder"><!-- main holder -->
     <div id="content"><!-- content -->
       <div class="content_right_sidebar"><!-- left content -->
-        <%= render 'faq_table' %>
+        <%= table_for(@faqs) do |t| %>
+            <%= t.head( "#", "Question", "Answer") %>
+            <%= t.body_r do |faq| %>
+                <%= t.d faq.number %>
+                <%= t.d faq.question %>
+                <%= t.d faq.answer %>
+            <% end %>
+        <% end %>
+        <%= will_paginate @faqs %>
       </div><!-- end left content -->
       <br class="clear" />
     </div><!-- end content -->
