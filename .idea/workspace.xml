@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/products/_aed_matrix.erb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/products_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/products_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/products/aeds.html.erb" afterPath="$PROJECT_DIR$/app/views/products/aeds.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/products/customer_reviews.html.erb" afterPath="$PROJECT_DIR$/app/views/products/customer_reviews.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/services/_faq_table.erb" afterPath="$PROJECT_DIR$/app/views/services/_faq_table.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/data.rake" afterPath="$PROJECT_DIR$/lib/tasks/data.rake" />
     </list>
     <ignored path="lifelinei.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -656,7 +650,11 @@
       <created>1346276993892</created>
       <updated>1346276993892</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="created FAQ model and table&#10;">
+      <created>1346280021376</created>
+      <updated>1346280021376</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -718,7 +716,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="create FAQ model and table" />
+    <option name="LAST_COMMIT_MESSAGE" value="created FAQ model and table&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -750,6 +748,7 @@
     <MESSAGE value="Added contact mailer." />
     <MESSAGE value="Added AED model and table." />
     <MESSAGE value="create FAQ model and table" />
+    <MESSAGE value="created FAQ model and table&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
