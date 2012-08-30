@@ -84,33 +84,3 @@
 .iphorm-inner .success-message img{float:left;margin-bottom:10px;margin-right:10px;}
 .iphorm-inner div.multi_select-input-wrapper select{height:75px;width:130px;}
 .iphorm-inner .captcha-hidden-wrapper,.iphorm-inner .submit-button-wrapper div.loading-wrapper .loading{display:none;}
-
-/*=======================================================================
-Tables Rules
-=======================================================================
-*/
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 15px;
-}
-
-table th {
-    padding: 10px;
-    font-weight: bold;
-    text-align: center;
-    background-color: #2B3137;
-    color: white;
-}
-
-table td {
-    padding: 10px;
-}
-
-table tbody tr.odd {
-    background-color: #eee;
-}
-
-table tbody tr.even {
-    background-color: white;
-}
