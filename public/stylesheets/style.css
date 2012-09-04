@@ -117,7 +117,7 @@ body {margin:0;background:#f4f4f2;font:1.2em/19px "helvetica neue",Helvetica,Ari
 /*---------------------------------------------------------------*/
 #content {width:720px;float:left;margin-left: 20px;}
 .content_left_sidebar {float: right !important;}
-.content_right_sidebar {width: 510px !important;}
+.content_right_sidebar {width: 100% !important;}
 .content_full_width {width: 940px !important;padding: 0 20px 0 20px;float:left;margin-left: 0 !important;}
 .portfolio_full_width {margin-left: 0 !important;width:980px !important;}
 
