@@ -6,15 +6,11 @@
     <div id="content"><!-- content -->
       <div class="content_right_sidebar"><!-- left content -->
         <%= table_for(@aeds) do |t| %>
-            <%= t.head( "Feature", "ZOLL AED PLUS", "Philips HeartStart", "Physio-Control LifePak CRPlus") %>
-            <%= t.body_r do |aed| %>
-                <%= t.d %>
-                <%= t.d aed.battery_life%>
-                <%= t.d aed.battery_type %>
-                <%= t.d aed.energy_type %>
-                <%= t.d aed.energy_type %>
-                <%= t.d aed.pad_type %>
-                <%= t.d aed.pad_life %>
+            <%= t.head do %>
+                <%= t.h('Feature') %>
+                <%= t.h('Zoll') %>
+                <%= t.h('Philips') %>
+                <%= t.h('Physio') %>
             <% end %>
         <% end %>
       </div><!-- end left content -->
