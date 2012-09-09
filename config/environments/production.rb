@@ -64,7 +64,7 @@ Lifelinei::Application.configure do
   Lifelinei::Application.config.middleware.use ExceptionNotifier,
                                               :email_prefix => "[Error] ",
                                               :sender_address => %{"notifier" <notifier@lifelinei>},
-                                              :exception_recipients => %w{norment@gmail.com, colin@blkcat.net}
+                                              :exception_recipients => %w{colin@blkcat.net}
 
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
