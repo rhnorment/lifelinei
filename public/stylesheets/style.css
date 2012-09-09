@@ -1383,3 +1383,24 @@ border-radius: 5px;
 .portfolio_content_top_portrait {float: left;width: 293px;height: 389px;}
 .port_img_portrait_full {width: 612px;height: 792px;float: left;position: absolute;top:8px;left:9px;}
 .portfolio_portrait_full_last {float: right;width: 630px;height: 836px;position: relative;}
+
+table {
+	*border-collapse: collapse !important; /* for <= IE7 */
+	border-spacing: 0 !important;
+}
+
+table th {
+	border: 1px solid black;
+}
+
+th:first-child {
+	border-radius: 3px 0 0 0 !important;
+}
+
+th:last-child {
+	border-radius: 0 3px 0 0 !important;
+}
+
+th:only-child {
+	border-radius: 3px 3px 0 0 !important;
+}
