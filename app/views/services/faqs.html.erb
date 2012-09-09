@@ -14,9 +14,9 @@
               <% end %>
             <% end %>
             <%= t.body_r do |faq| %>
-                <%= t.d faq.number %>
-                <%= t.d faq.question %>
-                <%= t.d faq.answer %>
+                <%= t.d( faq.number, :class => 'center' ) %>
+                <%= t.d( faq.question, :class => 'left' ) %>
+                <%= t.d( faq.answer, :class => 'left' ) %>
             <% end %>
         <% end %>
         <%= will_paginate @faqs %>
