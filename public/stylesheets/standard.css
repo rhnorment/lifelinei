@@ -86,7 +86,6 @@
 .iphorm-inner .captcha-hidden-wrapper,.iphorm-inner .submit-button-wrapper div.loading-wrapper .loading{display:none;}
 
 table {
-	*border-collapse: collapse !important; /* for <= IE7 */
 	border-spacing: 0 !important;
 }
 
