@@ -1383,3 +1383,62 @@ border-radius: 5px;
 .portfolio_content_top_portrait {float: left;width: 293px;height: 389px;}
 .port_img_portrait_full {width: 612px;height: 792px;float: left;position: absolute;top:8px;left:9px;}
 .portfolio_portrait_full_last {float: right;width: 630px;height: 836px;position: relative;}
+
+
+table {
+	/* important to collapse borders without destroying rounded corners */
+	border-spacing: 0 !important;
+}
+
+/*
+	TABLE HEADING STYLING
+*/
+
+table th {
+	border-style: solid !important;
+	border-color: #a90000 !important;
+
+	background-color: #a90000 !important;
+	color: white !important;
+
+	border-width: 1px 0 1px 0 !important;
+}
+
+th:first-child {
+	border-radius: 6px 0 0 0 !important;
+
+	/* top right bottom left */
+	border-width: 1px 0 1px 1px !important;
+}
+
+th:last-child {
+	border-radius: 0 6px 0 0 !important;
+
+	border-width: 1px 1px 1px 0 !important;
+}
+
+th:only-child {
+	border-radius: 6px 6px 0 0 !important;
+
+	border-width: 1px !important;
+}
+
+th.left, td.left {
+	text-align: left !important;
+}
+
+th.center, td.center {
+	text-align: center !important;
+}
+
+th.right, td.right {
+	text-align: right !important;
+}
+
+/*
+	TABLE ZEBRA-STRIPE STYLING
+*/
+
+table.zebra tbody tr:nth-child(even) {
+	background-color: #dbdbdb !important;
+}
