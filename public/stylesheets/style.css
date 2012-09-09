@@ -1423,7 +1423,7 @@ th:only-child {
 	border-width: 1px !important;
 }
 
-th.left, td.center {
+th.left, td.left {
 	text-align: left !important;
 }
 
@@ -1431,7 +1431,7 @@ th.center, td.center {
 	text-align: center !important;
 }
 
-th.right, td.center {
+th.right, td.right {
 	text-align: right !important;
 }
 
