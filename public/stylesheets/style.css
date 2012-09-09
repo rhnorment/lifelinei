@@ -1385,7 +1385,7 @@ border-radius: 5px;
 .portfolio_portrait_full_last {float: right;width: 630px;height: 836px;position: relative;}
 
 table {
-	*border-collapse: collapse !important; /* for <= IE7 */
+	border-spacing: separate !important;
 	border-spacing: 0 !important;
 }
 
