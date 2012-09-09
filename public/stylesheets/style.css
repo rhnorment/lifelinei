@@ -1423,15 +1423,15 @@ th:only-child {
 	border-width: 1px !important;
 }
 
-th.left {
+th.left, td.center {
 	text-align: left !important;
 }
 
-th.center {
+th.center, td.center {
 	text-align: center !important;
 }
 
-th.right {
+th.right, td.center {
 	text-align: right !important;
 }
 
