@@ -6,7 +6,13 @@
     <div id="content"><!-- content -->
       <div class="content_right_sidebar"><!-- left content -->
         <%= table_for(@faqs) do |t| %>
-            <%= t.head( "#", "Question", "Answer") %>
+            <%= t.head do %>
+              <%= t.r do %>
+                <%= t.h( '#', :class => 'center' ) %>
+                <%= t.h( 'Question', :class => 'left' ) %>
+                <%= t.h( 'Answer', :class => 'left' ) %>
+              <% end %>
+            <% end %>
             <%= t.body_r do |faq| %>
                 <%= t.d faq.number %>
                 <%= t.d faq.question %>

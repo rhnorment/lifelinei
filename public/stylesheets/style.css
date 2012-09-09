@@ -1423,6 +1423,18 @@ th:only-child {
 	border-width: 1px !important;
 }
 
+th.left {
+	text-align: left;
+}
+
+th.center {
+	text-align: center;
+}
+
+th.right {
+	text-align: right;
+}
+
 /*
 	TABLE ZEBRA-STRIPE STYLING
 */
