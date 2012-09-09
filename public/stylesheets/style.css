@@ -1424,21 +1424,21 @@ th:only-child {
 }
 
 th.left {
-	text-align: left;
+	text-align: left !important;
 }
 
 th.center {
-	text-align: center;
+	text-align: center !important;
 }
 
 th.right {
-	text-align: right;
+	text-align: right !important;
 }
 
 /*
 	TABLE ZEBRA-STRIPE STYLING
 */
 
-table.zebra tbody tr:nth-child(odd) {
-	background-color: #dbdbdb;
+table.zebra tbody tr:nth-child(even) {
+	background-color: #dbdbdb !important;
 }
