@@ -8,9 +8,9 @@
         <%= table_for( @faqs, :html => { :class => 'zebra' } ) do |t| %>
             <%= t.head do %>
               <%= t.r do %>
-                <%= t.h( '#', :class => 'center', :style => 'width: "10%";' ) %>
-                <%= t.h( 'Question', :class => 'left', :style => 'width: "30%";' ) %>
-                <%= t.h( 'Answer', :class => 'left', :style => 'width: "60%";' ) %>
+                <%= t.h( '#', :class => 'center', :style => 'width: 10%;' ) %>
+                <%= t.h( 'Question', :class => 'left', :style => 'width: 30%;' ) %>
+                <%= t.h( 'Answer', :class => 'left', :style => 'width: 60%;' ) %>
               <% end %>
             <% end %>
             <%= t.body_r do |faq| %>
