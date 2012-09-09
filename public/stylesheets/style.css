@@ -1390,6 +1390,10 @@ table {
 	border-spacing: 0 !important;
 }
 
+/*
+	TABLE HEADING STYLING
+*/
+
 table th {
 	border-style: solid !important;
 	border-color: #a90000 !important;
@@ -1401,20 +1405,28 @@ table th {
 }
 
 th:first-child {
-	border-radius: 3px 0 0 0 !important;
+	border-radius: 6px 0 0 0 !important;
 
 	/* top right bottom left */
 	border-width: 1px 0 1px 1px !important;
 }
 
 th:last-child {
-	border-radius: 0 3px 0 0 !important;
+	border-radius: 0 6px 0 0 !important;
 
 	border-width: 1px 1px 1px 0 !important;
 }
 
 th:only-child {
-	border-radius: 3px 3px 0 0 !important;
+	border-radius: 6px 6px 0 0 !important;
 
 	border-width: 1px !important;
+}
+
+/*
+	TABLE ZEBRA-STRIPE STYLING
+*/
+
+table.zebra tbody tr:nth-child(odd) {
+	background-color: #dbdbdb;
 }
