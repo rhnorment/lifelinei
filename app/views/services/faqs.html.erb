@@ -5,12 +5,18 @@
   <div class="main-holder"><!-- main holder -->
     <div id="content"><!-- content -->
       <div class="content_right_sidebar"><!-- left content -->
-        <%= table_for(@faqs) do |t| %>
-            <%= t.head( "#", "Question", "Answer") %>
+        <%= table_for( @faqs, :html => { :class => 'zebra' } ) do |t| %>
+            <%= t.head do %>
+              <%= t.r do %>
+                <%= t.h( '#', :class => 'center', :style => 'width: 10%;' ) %>
+                <%= t.h( 'Question', :class => 'left', :style => 'width: 30%;' ) %>
+                <%= t.h( 'Answer', :class => 'left', :style => 'width: 60%;' ) %>
+              <% end %>
+            <% end %>
             <%= t.body_r do |faq| %>
-                <%= t.d faq.number %>
-                <%= t.d faq.question %>
-                <%= t.d faq.answer %>
+                <%= t.d( faq.number, :class => 'center' ) %>
+                <%= t.d( faq.question, :class => 'left' ) %>
+                <%= t.d( faq.answer, :class => 'left' ) %>
             <% end %>
         <% end %>
         <%= will_paginate @faqs %>
