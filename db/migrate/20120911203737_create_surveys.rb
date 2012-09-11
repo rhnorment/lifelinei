@@ -10,7 +10,7 @@ class CreateSurveys < ActiveRecord::Migration
       t.integer   :instructor_rating
       t.text      :instructor_comment
       t.integer   :conditions_rating
-      t.text      :condition_comment
+      t.text      :conditions_comment
       t.integer   :opinion_rating
       t.text      :opinion_comment
       t.timestamps

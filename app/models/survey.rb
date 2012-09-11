@@ -12,7 +12,7 @@
 #  instructor_rating    :integer
 #  instructor_comment   :text
 #  conditions_rating    :integer
-#  condition_comment    :text
+#  conditions_comment   :text
 #  opinion_rating       :integer
 #  opinion_comment      :text
 #  created_at           :datetime        not null
@@ -22,6 +22,7 @@
 class Survey < ActiveRecord::Base
 
   # class attriibutes:
-  attr_accessible        :survey_code, :business_name, :knowledge_comment, :knowledge_rating
+  attr_accessible        :survey_code, :business_name, :knowledge_comment, :knowledge_rating, :availability_rating, :availability_comment, :instructure_rating,
+                         :instructor_comment, :conditions_rating, :condition_comment, :opinion_rating, :opinion_commentannotae
 
 end
