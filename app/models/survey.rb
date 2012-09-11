@@ -23,6 +23,10 @@ class Survey < ActiveRecord::Base
 
   # class attriibutes:
   attr_accessible        :survey_code, :business_name, :knowledge_comment, :knowledge_rating, :availability_rating, :availability_comment, :instructure_rating,
-                         :instructor_comment, :conditions_rating, :condition_comment, :opinion_rating, :opinion_commentannotae
+                         :instructor_comment, :conditions_rating, :condition_comment, :opinion_rating, :opinion_comment
+
+  # data validations:
+  validates              :survey_code, :business_name, :knowledge_comment, :knowledge_rating, :availability_rating, :availability_comment, :instructure_rating,
+                         :instructor_comment, :conditions_rating, :condition_comment, :opinion_rating, :opinion_comment, presence: true
 
 end
