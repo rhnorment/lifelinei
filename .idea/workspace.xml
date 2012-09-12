@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/survey.rb" afterPath="$PROJECT_DIR$/app/models/survey.rb" />
     </list>
     <ignored path="lifelinei.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,7 +21,26 @@
     <disable_hints />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="20120911203737_create_surveys.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20120911203737_create_surveys.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="36" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="survey.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/survey.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="12" selection-start="978" selection-end="978" vertical-scroll-proportion="0.4270734">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -31,28 +50,31 @@
   <component name="GeneratorOptions">
     <option name="VCS_SHOW_CONFIRMATION" value="true" />
   </component>
+  <component name="Git.Push.Settings">
+    <option name="myUpdateMethod" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/db/schema.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20120829214432_create_faqs.rb" />
-        <option value="$PROJECT_DIR$/app/views/products/customer_reviews.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/services/_faq_table.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/services_controller.rb" />
         <option value="$PROJECT_DIR$/public/stylesheets/standard.css" />
         <option value="$PROJECT_DIR$/app/views/services/faqs.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/products_controller.rb" />
-        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/db/migrate/20120905200956_create_faqs.rb" />
-        <option value="$PROJECT_DIR$/app/models/faq.rb" />
         <option value="$PROJECT_DIR$/lib/tasks/data.rake" />
-        <option value="$PROJECT_DIR$/app/views/products/aeds.html.erb" />
-        <option value="$PROJECT_DIR$/code.tzt" />
         <option value="$PROJECT_DIR$/app/views/products/_aed_table.erb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/app/views/products/_zoll.erb" />
+        <option value="$PROJECT_DIR$/app/views/products/_philips.erb" />
+        <option value="$PROJECT_DIR$/app/views/products/_physio.erb" />
+        <option value="$PROJECT_DIR$/code.tzt" />
+        <option value="$PROJECT_DIR$/app/controllers/products_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/products/aeds.html.erb" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/app/models/faq.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20120911203737_create_surveys.rb" />
+        <option value="$PROJECT_DIR$/app/models/survey.rb" />
       </list>
     </option>
   </component>
@@ -64,10 +86,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1054" />
+    <option name="x" value="964" />
     <option name="y" value="22" />
-    <option name="width" value="1506" />
-    <option name="height" value="1411" />
+    <option name="width" value="1594" />
+    <option name="height" value="1418" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -95,7 +117,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -125,25 +146,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifelinei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifelinei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="environments" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -160,9 +163,50 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifelinei" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifelinei" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifelinei" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifelinei" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -184,8 +228,11 @@
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/public" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets" />
+    </key>
   </component>
-  <component name="RunManager" selected="Rails.Development: lifelinei">
+  <component name="RunManager" selected="Rake.db:migrate">
     <configuration default="false" name="db:migrate" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="lifelinei" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -450,10 +497,11 @@
       <item index="4" class="java.lang.String" itemvalue="Rake.db:migrate" />
     </list>
     <recent_temporary>
-      <list size="3">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Rake.db:migrate" />
         <item index="1" class="java.lang.String" itemvalue="Rake.db:migrate" />
         <item index="2" class="java.lang.String" itemvalue="Rake.db:migrate" />
+        <item index="3" class="java.lang.String" itemvalue="Rake.db:migrate" />
       </list>
     </recent_temporary>
   </component>
@@ -610,11 +658,35 @@
       <created>1347053522238</created>
       <updated>1347053522238</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="added Colin to execption notification recipients">
+      <created>1347054236130</created>
+      <updated>1347054236130</updated>
+    </task>
+    <task id="LOCAL-00034" summary="added table styling CSS.">
+      <created>1347310153276</created>
+      <updated>1347310153276</updated>
+    </task>
+    <task id="LOCAL-00035" summary="changed AED table and added AED PDF files to assets directory.">
+      <created>1347393894973</created>
+      <updated>1347393894973</updated>
+    </task>
+    <task id="LOCAL-00036" summary="added class survey model and table.">
+      <created>1347396363319</created>
+      <updated>1347396363319</updated>
+    </task>
+    <task id="LOCAL-00037" summary="added terms &amp; conditions PDF to assets directory.">
+      <created>1347396482189</created>
+      <updated>1347396482189</updated>
+    </task>
+    <task id="LOCAL-00038" summary="fixed survey table.">
+      <created>1347397437781</created>
+      <updated>1347397437781</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1054" y="22" width="1506" height="1411" extended-state="0" />
+    <frame x="964" y="22" width="1594" height="1418" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -622,12 +694,12 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20753425" sideWeight="0.8348554" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20607235" sideWeight="0.8145344" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16514459" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18546556" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16199848" sideWeight="0.999354" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -672,7 +744,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed AED matrix partial" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed survey table." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -685,12 +757,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="Modified configuration." />
-    <MESSAGE value="Added public images, CSS, and JS files." />
-    <MESSAGE value="Added layout templates" />
-    <MESSAGE value="removed asset pipeline." />
-    <MESSAGE value="added home layout and views" />
-    <MESSAGE value="added solutions infrastructure" />
     <MESSAGE value="added services layout" />
     <MESSAGE value="added products layout&#10;" />
     <MESSAGE value="fixing all layouts&#10;" />
@@ -710,41 +776,17 @@
     <MESSAGE value="added FAQ model and table and data." />
     <MESSAGE value="getting AED table in order" />
     <MESSAGE value="completed AED matrix partial" />
+    <MESSAGE value="added Colin to execption notification recipients" />
+    <MESSAGE value="added table styling CSS." />
+    <MESSAGE value="changed AED table and added AED PDF files to assets directory." />
+    <MESSAGE value="added class survey model and table." />
+    <MESSAGE value="added terms &amp; conditions PDF to assets directory." />
+    <MESSAGE value="fixed survey table." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/products_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="126" selection-end="126" vertical-scroll-proportion="0.106362775" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="79" selection-start="1329" selection-end="1329" vertical-scroll-proportion="0.47103512" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/karma-grey.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/secondary-grey.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="32" selection-start="1059" selection-end="1059" vertical-scroll-proportion="0.24615385" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="34" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.27115384" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/services/faqs.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="32" selection-start="862" selection-end="862" vertical-scroll-proportion="0.37354085" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/standard.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="19" selection-start="3075" selection-end="3075" vertical-scroll-proportion="0.73846155" />
@@ -760,36 +802,78 @@
         <state line="6" column="4" selection-start="160" selection-end="160" vertical-scroll-proportion="0.08971962" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/faq.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="72" selection-start="246" selection-end="246" vertical-scroll-proportion="0.1495327" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/data.rake">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="9" selection-start="115" selection-end="115" vertical-scroll-proportion="0.060548723" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/aeds.html.erb">
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="23" selection-start="575" selection-end="575" vertical-scroll-proportion="-10.24" />
+        <state line="66" column="109" selection-start="2663" selection-end="2663" vertical-scroll-proportion="0.82056075" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code.tzt">
+    <entry file="file://$PROJECT_DIR$/app/controllers/products_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="58" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" />
+        <state line="6" column="30" selection-start="106" selection-end="106" vertical-scroll-proportion="0.09151573" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/_aed_table.erb">
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="46" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.29569378">
+        <state line="487" column="70" selection-start="27564" selection-end="27564" vertical-scroll-proportion="0.45945945">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/karma-grey.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="109" selection-start="2663" selection-end="2663" vertical-scroll-proportion="0.82056075">
+        <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/secondary-grey.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="32" selection-start="1059" selection-end="1059" vertical-scroll-proportion="0.24710424">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/aeds.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="87" selection-start="542" selection-end="542" vertical-scroll-proportion="0.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code.tzt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="23" selection-start="47" selection-end="62" vertical-scroll-proportion="0.015252622">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/services/faqs.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="57" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.359375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/faq.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20120911203737_create_surveys.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="36" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/survey.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="12" selection-start="978" selection-end="978" vertical-scroll-proportion="0.4270734">
           <folding />
         </state>
       </provider>
