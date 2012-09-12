@@ -1019,7 +1019,8 @@ text-decoration: none;outline: none;padding:5px 11px;display:inline-block;color:
 #main .wp-pagenavi a:hover{
 background: url(/images/_global/global-sprite.png) -585px -639px no-repeat;margin-right: 6px;}
 .karma-pages a:active,.karma-pages span.current,
-.wp-pagenavi a:active,.wp-pagenavi span.current{
+.wp-pagenavi a:active,.wp-pagenavi span.current,
+.karma-pages em.current {
 text-decoration: none;padding:5px 11px;color: #FFF;background: url(/images/_global/bg-wp-navi-current.png) 0 0 no-repeat;margin-right: 6px;display:inline-block;}
 .wp-pagenavi a, .wp-pagenavi span {border:0;}
 
