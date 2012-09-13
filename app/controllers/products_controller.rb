@@ -5,7 +5,6 @@ class ProductsController < ApplicationController
   end
 
   def aeds
-    @aeds = Aed.all
     @title = "AEDs"
   end
 

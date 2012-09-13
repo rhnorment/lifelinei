@@ -31,6 +31,7 @@ Lifelinei::Application.routes.draw do
   get "services/administration",            as:   'administration'
   get "services/oversight",                 as:   'oversight'
   get "services/training",                  as:   'training'
+  get "services/survey",                    as:   'survey'
   get "services/financing",                 as:   'financing'
   get "services/laws",                      as:   'laws'
   get "services/faqs",                      as:   'faqs'
