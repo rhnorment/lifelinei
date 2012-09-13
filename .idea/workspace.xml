@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/survey.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20120911203737_create_surveys.rb" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/surveys_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/survey.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/surveys/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/surveys/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/surveys/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/surveys/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/surveys/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20120913211410_create_surveys.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/services/survey.html.erb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code.tzt" afterPath="$PROJECT_DIR$/code.tzt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/services/training.html.erb" afterPath="$PROJECT_DIR$/app/views/services/training.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
     </list>
     <ignored path="lifelinei.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,10 +32,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="survey.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/survey.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="53" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.61010486">
+            <state line="31" column="0" selection-start="1313" selection-end="1313" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="surveys_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/surveys_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="25" selection-start="86" selection-end="86" vertical-scroll-proportion="0.045757864">
               <folding />
             </state>
           </provider>
@@ -52,8 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
-        <option value="$PROJECT_DIR$/app/views/products/_zoll.erb" />
         <option value="$PROJECT_DIR$/app/views/products/_philips.erb" />
         <option value="$PROJECT_DIR$/app/views/products/_physio.erb" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
@@ -61,13 +76,15 @@
         <option value="$PROJECT_DIR$/db/migrate/20120911203737_create_surveys.rb" />
         <option value="$PROJECT_DIR$/app/controllers/services_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/services/survey.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/services/training.html.erb" />
         <option value="$PROJECT_DIR$/app/views/products/aeds.html.erb" />
         <option value="$PROJECT_DIR$/app/views/products/_aed_matrix.erb" />
         <option value="$PROJECT_DIR$/app/controllers/products_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/survey.rb" />
         <option value="$PROJECT_DIR$/code.tzt" />
+        <option value="$PROJECT_DIR$/db/migrate/20120913211410_create_surveys.rb" />
+        <option value="$PROJECT_DIR$/app/views/services/training.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/survey.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/surveys_controller.rb" />
       </list>
     </option>
   </component>
@@ -138,25 +155,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifelinei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifelinei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrate" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -192,6 +191,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifelinei" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifelinei" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -221,7 +238,7 @@
       <recent name="$PROJECT_DIR$/public/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Rails.Development: lifelinei">
+  <component name="RunManager" selected="Rake.db:migrate">
     <configuration default="false" name="db:migrate" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="lifelinei" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -486,11 +503,12 @@
       <item index="4" class="java.lang.String" itemvalue="Rake.db:migrate" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Rake.db:migrate" />
         <item index="1" class="java.lang.String" itemvalue="Rake.db:migrate" />
         <item index="2" class="java.lang.String" itemvalue="Rake.db:migrate" />
         <item index="3" class="java.lang.String" itemvalue="Rake.db:migrate" />
+        <item index="4" class="java.lang.String" itemvalue="Rake.db:migrate" />
       </list>
     </recent_temporary>
   </component>
@@ -679,7 +697,11 @@
       <created>1347569508885</created>
       <updated>1347569508885</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="temp deleted survey table and model.">
+      <created>1347570177111</created>
+      <updated>1347570177111</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -741,7 +763,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed AED table and model." />
+    <option name="LAST_COMMIT_MESSAGE" value="temp deleted survey table and model." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -754,7 +776,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="fixing all layouts&#10;" />
     <MESSAGE value="fixed static pages" />
     <MESSAGE value="fixed static pages with solutions/" />
     <MESSAGE value="fixed contact form." />
@@ -779,6 +800,7 @@
     <MESSAGE value="fixed survey table." />
     <MESSAGE value="completed survey model." />
     <MESSAGE value="removed AED table and model." />
+    <MESSAGE value="temp deleted survey table and model." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -792,16 +814,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/services/main.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="40" selection-start="0" selection-end="37" vertical-scroll-proportion="-0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/services/survey.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="65" selection-start="40" selection-end="40" vertical-scroll-proportion="-0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/services/training.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="85" selection-start="607" selection-end="607" vertical-scroll-proportion="0.28125" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/faq.rb">
@@ -860,16 +872,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20120913211410_create_surveys.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="53" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.61010486">
+        <state line="20" column="9" selection-start="605" selection-end="605" vertical-scroll-proportion="0.30505243">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/services/training.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="36" selection-start="635" selection-end="635" vertical-scroll-proportion="0.28125">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code.tzt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="7" selection-start="1812" selection-end="1812" vertical-scroll-proportion="0.76263106">
+        <state line="32" column="9" selection-start="0" selection-end="1265" vertical-scroll-proportion="0.4880839">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/survey.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="1313" selection-end="1313" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="52" selection-start="1848" selection-end="1848" vertical-scroll-proportion="0.61010486">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/surveys_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="25" selection-start="86" selection-end="86" vertical-scroll-proportion="0.045757864">
           <folding />
         </state>
       </provider>
