@@ -1448,6 +1448,10 @@ table.zebra tbody tr:nth-child(even) {
 	CUSTOM PAGINATION STYLING
 */
 
+.karma-pages {
+	text-align: center !important;
+}
+
 .karma-pages .previous_page, .karma-pages .next_page {
 	display: none !important;
 }
