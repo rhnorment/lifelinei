@@ -1443,3 +1443,11 @@ th.right, td.right {
 table.zebra tbody tr:nth-child(even) {
 	background-color: #dbdbdb !important;
 }
+
+/*
+	CUSTOM PAGINATION STYLING
+*/
+
+.karma-pages .previous_page, .karma-pages .next_page {
+	display: none !important;
+}
