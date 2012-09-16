@@ -38,5 +38,6 @@ Lifelinei::Application.routes.draw do
 
   # Contacts paths:
   resources                                 :contacts
+  resources                                 :surveys
 
 end

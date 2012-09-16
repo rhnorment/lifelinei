@@ -15,5 +15,6 @@ class CreateSurveys < ActiveRecord::Migration
       t.text      :opinion_comment
       t.timestamps
     end
+    add_index     :surveys, :survey_code
   end
 end

@@ -1405,6 +1405,11 @@ table th {
 	border-width: 1px 0 1px 0 !important;
 }
 
+table th a {
+    color: white !important;
+    text-decoration-line: underline;
+}
+
 th:first-child {
 	border-radius: 6px 0 0 0 !important;
 
