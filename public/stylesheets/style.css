@@ -1385,10 +1385,18 @@ border-radius: 5px;
 .port_img_portrait_full {width: 612px;height: 792px;float: left;position: absolute;top:8px;left:9px;}
 .portfolio_portrait_full_last {float: right;width: 630px;height: 836px;position: relative;}
 
+/*
+	TABLE STYLING
+*/
 
 table {
 	/* important to collapse borders without destroying rounded corners */
 	border-spacing: 0 !important;
+}
+
+table tr.image-row img {
+	display: block !important;
+	margin: 0 auto !important;
 }
 
 /*
