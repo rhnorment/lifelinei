@@ -5,7 +5,9 @@
   <div class="main-holder"><!-- main holder -->
     <div id="content"><!-- content -->
       <div class="content_right_sidebar"><!-- left content -->
-        <%= link_to 'Take Survey', new_survey_path %>
+        <%= link_to new_survey_path, class: 'ka_button small_button small_cherry' do %>
+            <span>Take Survey</span>
+        <% end %>
       </div><!-- end left content -->
       <br class="clear" />
     </div><!-- end content -->
