@@ -1468,3 +1468,15 @@ table.zebra tbody tr:nth-child(even) {
 .karma-pages .previous_page, .karma-pages .next_page {
 	display: none !important;
 }
+
+/*
+    SIDEBAR STYLING
+*/
+
+div.nav_right_sub_nav ul.sub-menu {
+    font-weight: bold !important;
+}
+
+div.nav_right_sub_nav ul.sub-menu li.current_page_item {
+    font-weight: normal !important;
+}
