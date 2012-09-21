@@ -10,18 +10,11 @@ class SurveysController < ApplicationController
 
   def new
     @survey = Survey.new
+    @title = "Training Feedback Form"
   end
 
   def create
     @survey = Survey.new(params[:survey])
-  end
-
-  def edit
-    @survey = Survey.find(params[:id])
-  end
-
-  def update
-    @survey = Survey.find(params[:id])
   end
 
   def destroy

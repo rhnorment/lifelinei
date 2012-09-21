@@ -21,13 +21,18 @@
 
 class Survey < ActiveRecord::Base
 
-    # class attriibutes:
+    # constant variables:
+    RATING = (1..10)
+
+    # class attributes:
     attr_accessible        :survey_code, :business_name, :knowledge_comment, :knowledge_rating, :availability_rating, :availability_comment, :instructor_rating,
                            :instructor_comment, :conditions_rating, :condition_comment, :opinion_rating, :opinion_comment
 
     # data validations:
     validates              :survey_code, :business_name, :knowledge_comment, :knowledge_rating, :availability_rating, :availability_comment, :instructor_rating,
                            :instructor_comment, :conditions_rating, :condition_comment, :opinion_rating, :opinion_comment, presence: true
+
+    # callbacks:
 
 end
 
