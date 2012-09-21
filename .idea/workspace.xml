@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/surveys/edit.html.erb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/surveys_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/surveys_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/survey.rb" afterPath="$PROJECT_DIR$/app/models/survey.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/surveys/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/surveys/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/surveys/new.html.erb" afterPath="$PROJECT_DIR$/app/views/surveys/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code.tzt" afterPath="$PROJECT_DIR$/code.tzt" />
     </list>
     <ignored path="lifelinei.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,44 +22,7 @@
     <disable_hints />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="surveys_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/surveys_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="110" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="survey.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/survey.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="105" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/surveys/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="121" selection-start="181" selection-end="181" vertical-scroll-proportion="0.109375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/surveys/new.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="105" selection-start="681" selection-end="681" vertical-scroll-proportion="-9.6">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -88,7 +48,6 @@
         <option value="$PROJECT_DIR$/db/migrate/20120913211410_create_surveys.rb" />
         <option value="$PROJECT_DIR$/app/views/surveys/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/products/_aed_matrix.erb" />
-        <option value="$PROJECT_DIR$/code.tzt" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/app/views/services/training.html.erb" />
         <option value="$PROJECT_DIR$/app/views/surveys/_title_bar.erb" />
@@ -96,6 +55,7 @@
         <option value="$PROJECT_DIR$/app/controllers/surveys_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/surveys/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/surveys/_form.html.erb" />
+        <option value="$PROJECT_DIR$/code.tzt" />
         <option value="$PROJECT_DIR$/app/models/survey.rb" />
       </list>
     </option>
@@ -768,7 +728,11 @@
       <created>1348260797295</created>
       <updated>1348260797295</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="added inner workings of survey form.">
+      <created>1348263714369</created>
+      <updated>1348263714369</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -830,7 +794,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added certified training text and route to survey form." />
+    <option name="LAST_COMMIT_MESSAGE" value="added inner workings of survey form." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -843,7 +807,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="create FAQ model and table" />
     <MESSAGE value="created FAQ model and table&#10;" />
     <MESSAGE value="FAQs working without CSS styling." />
     <MESSAGE value="tables work byt need CSS styling" />
@@ -868,18 +831,12 @@
     <MESSAGE value="Fixed CSS" />
     <MESSAGE value="Fixed training button" />
     <MESSAGE value="Added certified training text and route to survey form." />
+    <MESSAGE value="added inner workings of survey form." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/surveys/_title_bar.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="43" selection-start="658" selection-end="658" vertical-scroll-proportion="0.234375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/surveys/_sub_nav.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="109" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.546875">
@@ -943,13 +900,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/surveys_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="110" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/contacts/_form.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -964,13 +914,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/survey.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="105" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/surveys/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="105" selection-start="681" selection-end="681" vertical-scroll-proportion="-9.6">
@@ -978,9 +921,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/code.tzt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="49" selection-start="119" selection-end="119" vertical-scroll-proportion="0.030505244">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/surveys/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="121" selection-start="181" selection-end="181" vertical-scroll-proportion="0.109375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/survey.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="4" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.5338417">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/surveys_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="110" selection-start="377" selection-end="377" vertical-scroll-proportion="0.38131553">
           <folding />
         </state>
       </provider>

@@ -33,6 +33,9 @@ class Survey < ActiveRecord::Base
                            :instructor_comment, :conditions_rating, :condition_comment, :opinion_rating, :opinion_comment, presence: true
 
     # callbacks:
+    def before_save
+
+    end
 
 end
 
