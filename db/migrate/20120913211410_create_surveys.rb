@@ -9,6 +9,8 @@ class CreateSurveys < ActiveRecord::Migration
       t.text      :availability_comment
       t.integer   :instructor_rating
       t.text      :instructor_comment
+      t.integer   :confidence_rating
+      t.text      :confidence_comment
       t.integer   :conditions_rating
       t.text      :conditions_comment
       t.integer   :opinion_rating

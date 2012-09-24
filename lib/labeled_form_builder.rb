@@ -12,6 +12,14 @@ class LabeledFormBuilder < ActionView::Helpers::FormBuilder
     end
   end
 
+  def select (name, *args)
+    content_tag :div, :class => "element-wrapper clearfix" do
+      content_tag :div, :class => "input-wrapper" do
+        field_label(name, *args) + tag(:br) + super(name, *args)
+      end
+    end
+  end
+
   def check_box(name, *args)
     content_tag :div, :class => "element-wrapper clearfix" do
       super + " " + field_label(name, *args)
