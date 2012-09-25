@@ -1,15 +1,35 @@
+<%= stylesheet_link_tag 'standard' %>
 <% provide(:title, "Certified Training Feedback") %>
 
 <div class="main-area"><!-- main area -->
-  <%= render 'title_bar' %>
+  <!-- title bar -->
+  <%= render 'title_bar' %><!-- title bar partial -->
+  <!-- end title bar -->
   <div class="main-holder"><!-- main holder -->
     <div id="content"><!-- content -->
       <div class="content_right_sidebar"><!-- left content -->
-        <p>Please complete the form below in order to help us continually improve our Certified Training Program:</p>
-        <%= render 'form' %>
+        <% flash.each do |key, value| %>
+            <p class="message_<%= key %>">
+              <%= value %>
+            </p>
+        <% end %>
+        <h2>Certified Training Feedback</h2>
+        <p>
+          Please complete the form below to help us improve our Certified Training offering:
+        </p>
+        <div class="iphorm-outer"><!-- iphorm outer -->
+          <div class="iphorm-wrapper"><!-- iphorm wrapper -->
+            <div class='iphorm-inner'><!-- iphorm inner -->
+              <div class='iphorm-message'></div><!-- end iphorm message -->
+              <div class='iphorm-container clearfix'><!-- iphorm container -->
+                <%= render 'form' %>
+              </div><!-- end iphorm container -->
+            </div><!-- iphorm wrapper -->
+          </div><!-- iphorm inner -->
+        </div><!-- end iphorm outer -->
       </div><!-- end left content -->
       <br class="clear" />
-    </div><!-- end content -->
+    </div><!-- end content --->
     <div id="sub_nav" class="nav_right_sub_nav"><!-- start sub nav -->
       <%= render 'sub_nav' %>
     </div><!-- end sub nav -->

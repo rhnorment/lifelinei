@@ -2,16 +2,16 @@
     <%= f.text_field :survey_code %>
     <%= f.text_field :business_name %><hr />
     <%= f.select :knowledge_rating, Survey::RATING, label: "Presentation and knowledge of material provided by the instructor(s)?" %>
-    <%= f.text_area :knowledge_comment, label: "Comments", size: "115x4" %><hr />
+    <%= f.text_area :knowledge_comment, label: "Comments", rows: "4", cols: "80" %>
     <%= f.select :availability_rating, Survey::RATING, label: "Availability of instructor(s) for questions?" %>
-    <%= f.text_area :availability_comment, label: "Comments", size: "115x4" %><hr />
+    <%= f.text_area :availability_comment, label: "Comments", size: "115x4" %>
     <%= f.select :instructor_rating, Survey::RATING, label: "Was the instructor able to hold your attention and interest throughout the class?" %>
-    <%= f.text_area :instructor_comment, label: "Comments", size: "115x4" %><hr />
+    <%= f.text_area :instructor_comment, label: "Comments", size: "115x4" %>
     <%= f.select :confidence_rating, Survey::RATING, label: "Are you leaving with a higher level of confidence and understanding to be able to respond in an emergency event?" %>
-    <%= f.text_area :confidence_comment, label: "Comments", size: "115x4" %><hr />
+    <%= f.text_area :confidence_comment, label: "Comments", size: "115x4" %>
     <%= f.select :conditions_rating, Survey::RATING, label: "Was the facility and room condition conducive for learning?" %>
-    <%= f.text_area :conditions_comment, label: "Comments", size: "115x4" %><hr />
+    <%= f.text_area :conditions_comment, label: "Comments", size: "115x4" %>
     <%= f.select :opinion_rating, Survey::RATING, label: "What is your over all opinion of the training you received today?" %>
-    <%= f.text_area :opinion_comment, label: "Comments", size: "115x4" %><hr />
-    <%= f.submit "Send Survey Results" %>
+    <%= f.text_area :opinion_comment, label: "Comments", size: "115x4" %>
+    <%= f.submit "Send Survey Results", class: 'ka-form-submit' %>
 <% end %>
