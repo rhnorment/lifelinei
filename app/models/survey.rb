@@ -33,6 +33,8 @@ class Survey < ActiveRecord::Base
     # data validations:
     validates              :survey_code, :business_name, :knowledge_rating, :availability_rating, :instructor_rating, :conditions_rating, :opinion_rating,
                            :confidence_rating, presence: true
+    validates              :survey_code, length: { is: 12 }
+
 
 
 end

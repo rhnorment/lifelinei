@@ -63,7 +63,7 @@ class LabeledFormBuilder < ActionView::Helpers::FormBuilder
     unless required
       label(name, options[:label])
     else
-      label(name, options[:label]) + "  " + content_tag(:span, :class => "required") do
+      label(name, options[:label]) + "  " + content_tag(:span, class:"required") do
         "(required)"
       end
     end
