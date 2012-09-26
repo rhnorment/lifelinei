@@ -16,6 +16,7 @@ class SurveysController < ApplicationController
   def create
     @survey = Survey.new(params[:survey])
     if @survey.save
+      SurveyMailer.survey_confirmation(@survey).deliver
       flash.now[:green] = "Your feedback was successfully sent to LifeLine!."
       redirect_to training_path
     else
