@@ -1,22 +1,22 @@
 <%= labeled_form_for @survey do |f| %>
     <%= f.text_field :survey_code %>
 
-    <%= f.select :knowledge_rating, Survey::RATING, class: 'toggleComment', label: "1.  Presentation and knowledge of material provided by the instructor(s)?", prompt: "Select (1..10)" %>
+    <%= f.select :knowledge_rating, Survey::RATING, html: { :class => 'toggleComment' }, label: "1.  Presentation and knowledge of material provided by the instructor(s)?", prompt: "Select (1..10)" %>
     <%= f.text_area :knowledge_comment, label: "Comments" %>
 
-    <%= f.select :availability_rating, Survey::RATING, class: 'toggleComment', label: "2.  Availability of instructor(s) for questions?", prompt: "Select (1..10)" %>
+    <%= f.select :availability_rating, Survey::RATING, html: { :class => 'toggleComment' }, label: "2.  Availability of instructor(s) for questions?", prompt: "Select (1..10)" %>
     <%= f.text_area :availability_comment, label: "Comments" %>
 
-    <%= f.select :instructor_rating, Survey::RATING, class: 'toggleComment', label: "3.  Was the instructor able to hold your attention and interest throughout the class?",  prompt: "Select (1..10)" %>
+    <%= f.select :instructor_rating, Survey::RATING, html: { :class => 'toggleComment' }, label: "3.  Was the instructor able to hold your attention and interest throughout the class?",  prompt: "Select (1..10)" %>
     <%= f.text_area :instructor_comment, label: "Comments" %>
 
-    <%= f.select :confidence_rating, Survey::RATING, class: 'toggleComment', label: "4.  Are you leaving with a higher level of confidence and understanding to be able to respond in an emergency event?",  prompt: "Select (1..10)" %>
+    <%= f.select :confidence_rating, Survey::RATING, html: { :class => 'toggleComment' }, label: "4.  Are you leaving with a higher level of confidence and understanding to be able to respond in an emergency event?",  prompt: "Select (1..10)" %>
     <%= f.text_area :confidence_comment, label: "Comments" %>
 
-    <%= f.select :conditions_rating, Survey::RATING, class: 'toggleComment', label: "5.  Was the facility and room condition conducive for learning?",  prompt: "Select (1..10)" %>
+    <%= f.select :conditions_rating, Survey::RATING, html: { :class => 'toggleComment' }, label: "5.  Was the facility and room condition conducive for learning?",  prompt: "Select (1..10)" %>
     <%= f.text_area :conditions_comment, label: "Comments" %>
 
-    <%= f.select :opinion_rating, Survey::RATING, class: 'toggleComment', label: "6.  What is your over all opinion of the training you received today?",  prompt: "Select (1..10)" %>
+    <%= f.select :opinion_rating, Survey::RATING, html: { :class => 'toggleComment' }, label: "6.  What is your over all opinion of the training you received today?",  prompt: "Select (1..10)" %>
     <%= f.text_area :opinion_comment, label: "Comments" %>
 
     <%= f.submit "Send Survey Results", class: 'ka-form-submit' %>
