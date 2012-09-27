@@ -1,0 +1,23 @@
+<% provide(:title, "Administer all Surveys") %>
+
+<div class="main-area"><!-- main area -->
+  <%= render 'title_bar' %>
+  <div class="main-holder"><!-- main holder -->
+    <div id="content"><!-- content -->
+      <div class="content_full_width">
+        <%= table_for( @surveys, :html => { :class => 'zebra' } ) do |t| %>
+            <%= t.head( "ID", "Survey Code", "Company", "Actions" ) %>
+            <%= t.body_r do |survey| %>
+                <%= t.d survey.id %>
+                <%= t.d survey_code %>
+                <%= t.d contact.id do %>
+                    <%= link_to "View", survey %> |
+                    <%= link_to "Destroy", survey, confirm: "Are You Sure?", method: :delete %>
+                <% end %>
+            <% end %>
+        <% end %>
+        <%= will_paginate @contacts, :class => 'karma-pages' %>
+      </div><!-- end content -->
+    </div><!-- end sub nav -->
+  </div><!-- end main holder -->
+</div><!-- end main area -->

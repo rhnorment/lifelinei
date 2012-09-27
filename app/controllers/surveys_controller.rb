@@ -1,11 +1,13 @@
 class SurveysController < ApplicationController
 
   def index
-    @surveys = Survey.all
+    @surveys =  Survey.paginate(:page => params[:page]).order('id DESC')
+    @title = "Administer all Surveys"
   end
 
   def show
     @survey = Survey.find(params[:id])
+    @title = "Showing Survey #{@survey.id}"
   end
 
   def new
@@ -28,6 +30,8 @@ class SurveysController < ApplicationController
   def destroy
     @survey = Survey.find(params[:id])
     @survey.destroy
+    flash[:yellow] = "This survey has been removed from the system."
+    redirect_to surveys_path
   end
 
 end

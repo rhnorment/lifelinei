@@ -1,0 +1,28 @@
+<% provide(:title, "Showing Contact") %>
+
+<div class="main-area"><!-- main area -->
+  <%= render 'title_bar' %>
+  <div class="main-holder"><!-- main holder -->
+    <div id="content"><!-- content -->
+      <div class="content_full_width">
+        <%= table_for( @contacts, :html => { :class => 'zebra' } ) do |t| %>
+            <%= t.head( "ID", "Name", "Company", "Email", "Phone", "Actions" ) %>
+            <%= t.body_r do |contact| %>
+                <%= t.d contact.id %>
+                <%= t.d contact.name %>
+                <%= t.d contact.company %>
+                <%= t.d contact.email do %>
+                    <%= mail_to contact.email %>
+                <% end %>
+                <%= t.d contact.phone %>
+                <%= t.d contact.id do %>
+                    <%= link_to "View", contact %> |
+                    <%= link_to "Destroy", contact, confirm: "Are You Sure?", method: :delete %>
+                <% end %>
+            <% end %>
+        <% end %>
+        <%= will_paginate @contacts, :class => 'karma-pages' %>
+      </div><!-- end content -->
+    </div><!-- end sub nav -->
+  </div><!-- end main holder -->
+</div><!-- end main area -->

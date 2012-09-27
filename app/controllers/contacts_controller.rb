@@ -1,5 +1,15 @@
 class ContactsController < ApplicationController
 
+  def index
+    @title = "Administer LifeLine Contacts"
+    @contacts = Contact.paginate(:page => params[:page]).order('id DESC')
+  end
+
+  def show
+    @contact = Contact.find(params[:id])
+    @title = "Showing contact #{@contact.name}"
+  end
+
   def new
     @title = "Contact Us"
     @contact = Contact.new
@@ -11,11 +21,18 @@ class ContactsController < ApplicationController
       ContactMailer.contact_confirmation(@contact).deliver
       ContactMailer.contact_message(@contact).deliver
       flash.now[:green] = "Your message was successfully sent to LifeLine!  Someone will be in touch with you shortly."
-      render  :new
+      render :new
     else
       flash.now[:red] = "There was a problem submitting your message.  Every field is required.  Please try again."
       render :new
     end
+  end
+
+  def destroy
+    @contact = Contact.find(params[:id])
+    @contact.destroy
+    flash[:yellow] = "This contact has been removed from the system."
+    redirect_to contacts_path
   end
 
 
