@@ -1,6 +1,5 @@
 <%= labeled_form_for @survey do |f| %>
     <%= f.text_field :survey_code %>
-    <%= f.text_field :business_name %>
     <%= f.select :knowledge_rating, Survey::RATING, label: "1.  Presentation and knowledge of material provided by the instructor(s)?", prompt: "Select (1..10)" %>
     <%= f.text_area :knowledge_comment, label: "Comments" %>
     <%= f.select :availability_rating, Survey::RATING, label: "2.  Availability of instructor(s) for questions?", prompt: "Select (1..10)" %>

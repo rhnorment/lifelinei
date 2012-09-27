@@ -17,8 +17,8 @@ class SurveysController < ApplicationController
     @survey = Survey.new(params[:survey])
     if @survey.save
       SurveyMailer.survey_confirmation(@survey).deliver
-      flash.now[:green] = "Your feedback was successfully sent to LifeLine!."
-      redirect_to training_path
+      flash[:green] = "Your feedback was successfully sent to LifeLine!."
+      redirect_to new_survey_path
     else
       flash.now[:red] = "There was a problem submitting your feedback.  Please try again."
       render :new

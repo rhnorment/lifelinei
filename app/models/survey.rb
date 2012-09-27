@@ -4,7 +4,6 @@
 #
 #  id                   :integer         not null, primary key
 #  survey_code          :string(255)
-#  business_name        :string(255)
 #  knowledge_rating     :integer
 #  knowledge_comment    :text
 #  availability_rating  :integer
@@ -27,11 +26,11 @@ class Survey < ActiveRecord::Base
     RATING = (1..10)
 
     # class attributes:
-    attr_accessible        :survey_code, :business_name, :knowledge_comment, :knowledge_rating, :availability_rating, :availability_comment, :instructor_rating,
+    attr_accessible        :survey_code, :knowledge_comment, :knowledge_rating, :availability_rating, :availability_comment, :instructor_rating,
                            :instructor_comment, :conditions_rating, :conditions_comment, :opinion_rating, :opinion_comment, :confidence_rating, :confidence_comment
 
     # data validations:
-    validates              :survey_code, :business_name, :knowledge_rating, :availability_rating, :instructor_rating, :conditions_rating, :opinion_rating,
+    validates              :survey_code, :knowledge_rating, :availability_rating, :instructor_rating, :conditions_rating, :opinion_rating,
                            :confidence_rating, presence: true
     validates              :survey_code, length: { is: 12 }
 
