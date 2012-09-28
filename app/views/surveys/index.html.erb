@@ -10,13 +10,13 @@
             <%= t.body_r do |survey| %>
                 <%= t.d survey.id %>
                 <%= t.d survey_code %>
-                <%= t.d contact.id do %>
+                <%= t.d survey.id do %>
                     <%= link_to "View", survey %> |
                     <%= link_to "Destroy", survey, confirm: "Are You Sure?", method: :delete %>
                 <% end %>
             <% end %>
         <% end %>
-        <%= will_paginate @contacts, :class => 'karma-pages' %>
+        <%= will_paginate @surveys, :class => 'karma-pages' %>
       </div><!-- end content -->
     </div><!-- end sub nav -->
   </div><!-- end main holder -->

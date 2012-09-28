@@ -22,17 +22,16 @@
 
 class Survey < ActiveRecord::Base
 
-    # constant variables:
-    RATING = (1..10)
+  # constant variables:
+  RATING = (1..10)
 
-    # class attributes:
-    attr_accessible        :survey_code, :knowledge_comment, :knowledge_rating, :availability_rating, :availability_comment, :instructor_rating,
-                           :instructor_comment, :conditions_rating, :conditions_comment, :opinion_rating, :opinion_comment, :confidence_rating, :confidence_comment
+  # class attributes:
+  attr_accessible        :survey_code, :knowledge_comment, :knowledge_rating, :availability_rating, :availability_comment, :instructor_rating,
+                         :instructor_comment, :conditions_rating, :conditions_comment, :opinion_rating, :opinion_comment, :confidence_rating, :confidence_comment
 
-    # data validations:
-    validates              :survey_code, :knowledge_rating, :availability_rating, :instructor_rating, :conditions_rating, :opinion_rating,
-                           :confidence_rating, presence: true
-    validates              :survey_code, length: { is: 12 }
+  # data validations:
+  validates              :survey_code, :knowledge_rating, :availability_rating, :instructor_rating, :conditions_rating, :opinion_rating,
+                         :confidence_rating, presence: true
+  validates              :survey_code, length: { is: 12 }
 
 end
-
