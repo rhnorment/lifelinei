@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/contacts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/contacts_controller.rb" />
     </list>
     <ignored path="lifelinei.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,17 +21,7 @@
     <disable_hints />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="contacts_controller.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/contacts_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="51" selection-start="888" selection-end="888" vertical-scroll-proportion="0.51858914">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -768,7 +759,11 @@
       <created>1348866414778</created>
       <updated>1348866414778</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="changed contact controller">
+      <created>1348866470863</created>
+      <updated>1348866470863</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -980,7 +975,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/contacts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="51" selection-start="888" selection-end="888" vertical-scroll-proportion="0.51858914">
+        <state line="31" column="36" selection-start="881" selection-end="881" vertical-scroll-proportion="0.47283128">
           <folding />
         </state>
       </provider>
