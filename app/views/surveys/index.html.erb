@@ -6,10 +6,10 @@
     <div id="content"><!-- content -->
       <div class="content_full_width">
         <%= table_for( @surveys, :html => { :class => 'zebra' } ) do |t| %>
-            <%= t.head( "ID", "Survey Code", "Company", "Actions" ) %>
+            <%= t.head( "Name", "Survey Code", "Actions" ) %>
             <%= t.body_r do |survey| %>
-                <%= t.d survey.id %>
-                <%= t.d survey_code %>
+                <%= t.d survey.name %>
+                <%= t.d survey.survey_code %>
                 <%= t.d survey.id do %>
                     <%= link_to "View", survey %> |
                     <%= link_to "Destroy", survey, confirm: "Are You Sure?", method: :delete %>

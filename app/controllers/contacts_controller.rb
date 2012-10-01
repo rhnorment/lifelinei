@@ -40,4 +40,5 @@ class ContactsController < ApplicationController
     flash[:yellow] = "This contact has been removed from the system."
     redirect_to contacts_path
   end
+
 end
