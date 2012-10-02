@@ -6,7 +6,7 @@
     <div id="content"><!-- content -->
       <div class="content_full_width"><!-- start content full width -->
         <%= table_for( @surveys, :html => { :class => 'zebra' } ) do |t| %>
-            <%= t.head("Survey Code", "Total Score" ) %>
+            <%= t.head("Survey Code", "Submit Date", "Total Score" ) %>
             <%= t.body_r do |survey| %>
                 <%= t.d do %>
                     <%= link_to survey.survey_code, survey %>

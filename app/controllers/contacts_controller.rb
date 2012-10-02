@@ -2,7 +2,7 @@ class ContactsController < ApplicationController
 
   def index
     @title = "Administer LifeLine Contacts"
-    @contacts = Contact.paginate(:page => params[:page]).order('id DESC')
+    @contacts = Contact.paginate(:page => params[:page]).order('created_at DESC')
   end
 
   def show

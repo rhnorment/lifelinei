@@ -34,4 +34,5 @@ class Survey < ActiveRecord::Base
                          :confidence_rating, presence: true
   validates              :survey_code, length: { is: 12 }
 
+
 end

@@ -6,7 +6,7 @@
     <div id="content"><!-- content -->
       <div class="content_full_width">
         <%= table_for( @contacts, :html => { :class => 'zebra' } ) do |t| %>
-            <%= t.head( "Name", "Company", "Email", "Phone" ) %>
+            <%= t.head( "Name", "Company", "Email", "Phone", "Submit Date" ) %>
             <%= t.body_r do |contact| %>
                 <%= t.d do %>
                     <%= link_to contact.name, contact %>
@@ -16,6 +16,7 @@
                     <%= mail_to contact.email %>
                 <% end %>
                 <%= t.d contact.phone %>
+                <%= t.d contact.created_at %>
             <% end %>
         <% end %>
         <%= will_paginate @contacts, :class => 'karma-pages' %>
