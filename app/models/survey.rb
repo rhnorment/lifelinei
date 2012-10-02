@@ -23,7 +23,7 @@
 class Survey < ActiveRecord::Base
 
   # constant variables:
-  RATING = (1..10)
+  RATING =                (1..10)
 
   # class attributes:
   attr_accessible        :survey_code, :knowledge_comment, :knowledge_rating, :availability_rating, :availability_comment, :instructor_rating,
