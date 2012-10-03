@@ -1453,6 +1453,11 @@ th.right, td.right {
 	TABLE ZEBRA-STRIPE STYLING
 */
 
+table.zebra {
+	width: 100% !important;
+	min-width: 100% !important;
+}
+
 table.zebra tbody tr:nth-child(even) {
 	background-color: #dbdbdb !important;
 }
