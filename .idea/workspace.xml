@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/surveys_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/survey.rb" afterPath="$PROJECT_DIR$/app/models/survey.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/surveys/index.html.erb" afterPath="$PROJECT_DIR$/app/views/surveys/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/surveys/show.html.erb" afterPath="$PROJECT_DIR$/app/views/surveys/show.html.erb" />
     </list>
     <ignored path="lifelinei.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +24,7 @@
       <file leaf-file-name="survey.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/survey.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="100" selection-start="1756" selection-end="1756" vertical-scroll-proportion="0.7567568">
+            <state line="46" column="53" selection-start="1716" selection-end="1716" vertical-scroll-proportion="0.7104247">
               <folding />
             </state>
           </provider>
@@ -772,7 +768,11 @@
       <created>1349295604032</created>
       <updated>1349295604033</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="added total scores and unacceptable scores to training feedback">
+      <created>1349298834446</created>
+      <updated>1349298834446</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -834,7 +834,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new total fields in survey table." />
+    <option name="LAST_COMMIT_MESSAGE" value="added total scores and unacceptable scores to training feedback" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -847,7 +847,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="removed AED table and model." />
     <MESSAGE value="temp deleted survey table and model." />
     <MESSAGE value="added survey scaffold&#10;" />
     <MESSAGE value="added AED PDF links to AED matrix." />
@@ -872,6 +871,7 @@
     <MESSAGE value="Added survey index and show files." />
     <MESSAGE value="add total scores to surveys and validations for scores below 9." />
     <MESSAGE value="added new total fields in survey table." />
+    <MESSAGE value="added total scores and unacceptable scores to training feedback" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -964,7 +964,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/survey.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="100" selection-start="1756" selection-end="1756" vertical-scroll-proportion="0.7567568">
+        <state line="46" column="53" selection-start="1716" selection-end="1716" vertical-scroll-proportion="0.7104247">
           <folding />
         </state>
       </provider>
