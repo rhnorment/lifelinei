@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/survey.rb" afterPath="$PROJECT_DIR$/app/models/survey.rb" />
     </list>
     <ignored path="lifelinei.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,17 +21,7 @@
     <disable_hints />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="survey.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/survey.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="53" selection-start="1716" selection-end="1716" vertical-scroll-proportion="0.7104247">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -772,7 +763,11 @@
       <created>1349298834446</created>
       <updated>1349298834446</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="added total scores and unacceptable scores to training feedback">
+      <created>1349299253790</created>
+      <updated>1349299253790</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -964,7 +959,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/survey.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="53" selection-start="1716" selection-end="1716" vertical-scroll-proportion="0.7104247">
+        <state line="21" column="49" selection-start="693" selection-end="693" vertical-scroll-proportion="0.3243243">
           <folding />
         </state>
       </provider>
