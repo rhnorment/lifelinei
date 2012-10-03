@@ -5,6 +5,7 @@
                 $( 'p.message_red' ).fadeOut( 3000 );
             }, 15000 );
 
+/*
             $( 'input.toggleComment' )
                 .closest( '.element-wrapper' )
                 .next( '.element-wrapper' )
@@ -24,5 +25,6 @@
                     nextContainer.hide();
                 }
             });
+*/
         });
 })( jQuery )
