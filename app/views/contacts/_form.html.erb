@@ -1,0 +1,8 @@
+<%= labeled_form_for @contact, class: "iphorm" do |f| %>
+    <%= f.text_field    :name %>
+    <%= f.text_field    :company %>
+    <%= f.text_field    :email %>
+    <%= f.text_field    :phone %>
+    <%= f.text_area     :message, :rows => '8', :cols => '80' %>
+    <%= f.submit 'Submit', class: 'ka-form-submit' %>
+<% end %>

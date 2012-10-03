@@ -4,20 +4,22 @@
   <%= render 'title_bar' %>
   <div class="main-holder"><!-- main holder -->
     <div id="content"><!-- content -->
-      <div class="content_full_width">
-        <%= table_for( @surveys, :html => { :class => 'zebra' } ) do |t| %>
-            <%= t.head( "ID", "Survey Code", "Company", "Actions" ) %>
+      <div class="content_full_width"><!-- start content full width -->
+        <%= table_for(@surveys, :html => { :class => 'zebra' }) do |t| %>
+            <%= t.head("Survey Code", "Total Score", "Unacceptable Scores", "Submit Date", "Actions" ) %>
             <%= t.body_r do |survey| %>
-                <%= t.d survey.id %>
-                <%= t.d survey_code %>
-                <%= t.d contact.id do %>
+                <%= t.d link_to survey.survey_code, survey %>
+                <%= t.d survey.total_score %>
+                <%= t.d survey.unacceptable_scores %>
+                <%= t.d survey.created_at %>
+                <%= t.d survey.id do %>
                     <%= link_to "View", survey %> |
-                    <%= link_to "Destroy", survey, confirm: "Are You Sure?", method: :delete %>
+                    <%= link_to "Destroy", survey, confirm: "Are you sure", method: :delete %>
                 <% end %>
             <% end %>
         <% end %>
-        <%= will_paginate @contacts, :class => 'karma-pages' %>
-      </div><!-- end content -->
-    </div><!-- end sub nav -->
+        <%= will_paginate @surveys, :class => 'karma-pages' %>
+      </div> <!-- end content full width -->
+    </div><!-- end content -->
   </div><!-- end main holder -->
 </div><!-- end main area -->

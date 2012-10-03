@@ -36,7 +36,7 @@ Lifelinei::Application.routes.draw do
   get "services/faqs",                      as:   'faqs'
   get "services/help",                      as:   'help'
 
-  # Contacts paths:
+  # RESTful routes:
   resources                                 :contacts
   resources                                 :surveys
 
