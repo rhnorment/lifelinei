@@ -5,11 +5,16 @@
   <div class="main-holder"><!-- main holder -->
     <div id="content"><!-- content -->
       <div class="content_full_width"><!-- start content full width -->
-        <%= table_for( @surveys, :html => { :class => 'zebra' } ) do |t| %>
-            <%= t.head("Survey Code", "Submit Date", "Total Score" ) %>
+        <%= table_for(@surveys, :html => { :class => 'zebra' }) do |t| %>
+            <%= t.head("Survey Code", "Total Score", "Unacceptable Scores", "Submit Date", "Actions" ) %>
             <%= t.body_r do |survey| %>
-                <%= t.d do %>
-                    <%= link_to survey.survey_code, survey %>
+                <%= t.d link_to survey.survey_code, survey %>
+                <%= t.d survey.total_score %>
+                <%= t.d survey.unacceptable_scores %>
+                <%= t.d survey.created_at %>
+                <%= t.d survey.id do %>
+                    <%= link_to "View", survey %> |
+                    <%= link_to "Destroy", survey, confirm: "Are you sure", method: :delete %>
                 <% end %>
             <% end %>
         <% end %>
