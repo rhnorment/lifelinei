@@ -1,7 +1,7 @@
 class SurveysController < ApplicationController
 
   def index
-    @surveys =  Survey.paginate(:page => params[:page]).order('survey_code DESC')
+    @surveys =  Survey.paginate(:page => params[:page]).order('created_at DESC')
     @title = "Administer all Surveys"
   end
 
