@@ -3,7 +3,9 @@ Hello LifeLine Team:
 A New Training Feedback Form has been submitted via our website.  Here is the relevant info. Please view the Survey index for more detail.
 
 Course ID:  <%= @survey.survey_code %>
-Date:  <%= @survey_created_at %>
+Submission Date:  <%= @survey.created_at %>
+Total Score:  <%= @survey.total_score %>
+Unacceptable Scores:
 _________________________________________________________________
 
 Knowledge Rating: <%= @survey.knowledge_rating %>
