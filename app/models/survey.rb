@@ -20,6 +20,7 @@
 #  unacceptable_scores  :integer
 #  created_at           :datetime        not null
 #  updated_at           :datetime        not null
+#
 
 class Survey < ActiveRecord::Base
 
@@ -36,7 +37,7 @@ class Survey < ActiveRecord::Base
   validates              :survey_code, length: { is: 12 }
 
   #callbacks
-  before_create          :total_score
+  before_save            :total_score
 
   def total_score
     self.total_score = 0
