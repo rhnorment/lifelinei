@@ -22,10 +22,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="surveys_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/surveys_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="73" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="survey.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/survey.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="22" selection-start="1430" selection-end="1430" vertical-scroll-proportion="0.5868726">
+            <state line="42" column="24" selection-start="1505" selection-end="1505" vertical-scroll-proportion="0.6486486">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/surveys/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="80" selection-start="1928" selection-end="1928" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/surveys/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="63" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -50,21 +77,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/surveys/_title_bar.erb" />
-        <option value="$PROJECT_DIR$/app/views/surveys/_sub_nav.erb" />
-        <option value="$PROJECT_DIR$/app/views/surveys/new.html.erb" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
-        <option value="$PROJECT_DIR$/app/views/survey_mailer/survey_confirmation.text.erb" />
         <option value="$PROJECT_DIR$/code.tzt" />
-        <option value="$PROJECT_DIR$/app/controllers/surveys_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/contacts_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/contacts/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/contacts/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/contacts/show.html.erb" />
-        <option value="$PROJECT_DIR$/db/migrate/20120928204021_create_surveys.rb" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/surveys/index.html.erb" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/app/views/surveys/_form.html.erb" />
+        <option value="$PROJECT_DIR$/public/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/controllers/surveys_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/survey_mailer/survey_confirmation.text.erb" />
         <option value="$PROJECT_DIR$/app/views/surveys/show.html.erb" />
+        <option value="$PROJECT_DIR$/db/migrate/20120928204021_create_surveys.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20121005194155_add_fields_to_survey.rb" />
         <option value="$PROJECT_DIR$/app/models/survey.rb" />
       </list>
     </option>
@@ -125,6 +152,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lifelinei" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifelinei" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifelinei" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifelinei" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifelinei" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="surveys" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -799,7 +862,39 @@
       <created>1349299767981</created>
       <updated>1349299767981</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="added total scores and unacceptable scores to training feedback">
+      <created>1349300144668</created>
+      <updated>1349300144669</updated>
+    </task>
+    <task id="LOCAL-00071" summary="fixed form styling and flash fades.">
+      <created>1349380172707</created>
+      <updated>1349380172707</updated>
+    </task>
+    <task id="LOCAL-00072" summary="fixed form styling and flash fades.">
+      <created>1349380223198</created>
+      <updated>1349380223199</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Added total score to survey mailer view.">
+      <created>1349381409305</created>
+      <updated>1349381409306</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Trying to fix total_score method on remote server.">
+      <created>1349382509171</created>
+      <updated>1349382509171</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Trying to fix total_score method on remote server.">
+      <created>1349383927600</created>
+      <updated>1349383927600</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Trying to fix total_score method on remote server.">
+      <created>1349465891416</created>
+      <updated>1349465891417</updated>
+    </task>
+    <task id="LOCAL-00077" summary="added survey migration DB fields.">
+      <created>1349466356345</created>
+      <updated>1349466356346</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -811,7 +906,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21447028" sideWeight="0.8145344" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21963824" sideWeight="0.8145344" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -861,7 +956,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added total scores and unacceptable scores to training feedback" />
+    <option name="LAST_COMMIT_MESSAGE" value="added survey migration DB fields." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -874,10 +969,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="temp deleted survey table and model." />
-    <MESSAGE value="added survey scaffold&#10;" />
-    <MESSAGE value="added AED PDF links to AED matrix." />
-    <MESSAGE value="fixed ZOLL.PDF link." />
     <MESSAGE value="Fixed CSS" />
     <MESSAGE value="Fixed training button" />
     <MESSAGE value="Added certified training text and route to survey form." />
@@ -899,44 +990,86 @@
     <MESSAGE value="add total scores to surveys and validations for scores below 9." />
     <MESSAGE value="added new total fields in survey table." />
     <MESSAGE value="added total scores and unacceptable scores to training feedback" />
+    <MESSAGE value="fixed form styling and flash fades." />
+    <MESSAGE value="Added total score to survey mailer view." />
+    <MESSAGE value="Trying to fix total_score method on remote server." />
+    <MESSAGE value="added survey migration DB fields." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/survey_mailer/survey_confirmation.text.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/contacts/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="38" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0625" />
+        <state line="25" column="64" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.390625" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/solutions_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/products/_aed_matrix.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code.tzt">
+    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" />
+        <state line="25" column="5" selection-start="592" selection-end="592" vertical-scroll-proportion="0.38131553" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/contacts_controller.rb">
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/karma-grey.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="74" selection-start="180" selection-end="180" vertical-scroll-proportion="0.061010487" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.9643861" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="484" column="52" selection-start="27261" selection-end="27261" vertical-scroll-proportion="0.16505791" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="84" selection-start="227" selection-end="227" vertical-scroll-proportion="0.061010487" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/surveys/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="60" selection-start="1538" selection-end="1538" vertical-scroll-proportion="0.36399603" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/survey_mailer/survey_confirmation.text.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="22" selection-start="306" selection-end="306" vertical-scroll-proportion="0.109375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mailers/survey_mailer.rb">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contacts/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/surveys/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="24" selection-start="81" selection-end="81" vertical-scroll-proportion="0.015625" />
+        <state line="25" column="63" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contacts/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/surveys_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="48" selection-start="792" selection-end="792" vertical-scroll-proportion="0.25" />
+        <state line="3" column="73" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/surveys/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="80" selection-start="1928" selection-end="1928" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20121005194155_add_fields_to_survey.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="47" selection-start="110" selection-end="110" vertical-scroll-proportion="0.031158715">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
@@ -944,54 +1077,16 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contacts/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="64" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.390625" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20120928204021_create_surveys.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="36" selection-start="589" selection-end="589" vertical-scroll-proportion="0.21020092">
+        <state line="21" column="12" selection-start="598" selection-end="598" vertical-scroll-proportion="0.32030505">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/_aed_matrix.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/surveys/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="68" selection-start="1883" selection-end="1883" vertical-scroll-proportion="0.4375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/surveys/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="11" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.390625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="5" selection-start="592" selection-end="592" vertical-scroll-proportion="0.38131553">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/surveys_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="45" selection-start="961" selection-end="961" vertical-scroll-proportion="0.67111534" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/survey.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="22" selection-start="1430" selection-end="1430" vertical-scroll-proportion="0.5868726">
+        <state line="42" column="24" selection-start="1505" selection-end="1505" vertical-scroll-proportion="0.6486486">
           <folding />
         </state>
       </provider>

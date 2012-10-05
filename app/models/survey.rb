@@ -20,6 +20,7 @@
 #  unacceptable_scores  :integer
 #  created_at           :datetime        not null
 #  updated_at           :datetime        not null
+#
 
 class Survey < ActiveRecord::Base
 
@@ -32,7 +33,7 @@ class Survey < ActiveRecord::Base
 
   # data validations:
   validates              :survey_code, :knowledge_rating, :availability_rating, :instructor_rating, :conditions_rating, :opinion_rating,
-                         :confidence_rating, presence: true
+                         :confidence_rating, :total_score, presence: true
   validates              :survey_code, length: { is: 12 }
 
   #callbacks

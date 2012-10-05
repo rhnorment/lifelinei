@@ -520,7 +520,7 @@ body {margin:0;background:#f4f4f2;font:1.2em/19px "helvetica neue",Helvetica,Ari
 a {color:#666;outline: none;}
 #menu-main-nav a, #sub_nav a, #wrapper .tabset a {text-decoration: none;}
 a:hover { text-decoration:underline;}
-#header .logo {float:left;margin-left:22px;outline: none;}
+#header .logo { flaot: left; margin-left:22px;outline: none; position: absolute; z-index:1000;}
 #header .sub-nav a, #header .sub-nav2 a {color: #575C60;text-decoration: none;}
 #header .sub-nav a:hover, #header .sub-nav2 a:hover {color: #8B949A;}
 #header .sub-nav li, #header .sub-nav2 li {color: #575C60;}
