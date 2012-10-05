@@ -1437,15 +1437,15 @@ th:only-child {
 	border-width: 1px !important;
 }
 
-th.left, td.left {
+th.left, td.left, tr.left {
 	text-align: left !important;
 }
 
-th.center, td.center {
+th.center, td.center, tr.center {
 	text-align: center !important;
 }
 
-th.right, td.right {
+th.right, td.right, tr.right {
 	text-align: right !important;
 }
 
