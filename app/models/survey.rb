@@ -33,15 +33,15 @@ class Survey < ActiveRecord::Base
 
   # data validations:
   validates              :survey_code, :knowledge_rating, :availability_rating, :instructor_rating, :conditions_rating, :opinion_rating,
-                         :confidence_rating, presence: true
+                         :confidence_rating, :total_score, presence: true
   validates              :survey_code, length: { is: 12 }
 
   #callbacks
-  before_save            :total_score
+  before_create          :total_score
 
   def total_score
-    self.total_score = 0
-    self.total_score = self.knowledge_rating + self.availability_rating + self.instructor_rating + self.confidence_rating + self.conditions_rating + self.opinion_rating
+    self.total_score = 10
+    # self.total_score = self.knowledge_rating + self.availability_rating + self.instructor_rating + self.confidence_rating + self.conditions_rating + self.opinion_rating
   end
 
 end

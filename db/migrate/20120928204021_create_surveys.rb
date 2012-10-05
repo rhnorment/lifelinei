@@ -14,8 +14,6 @@ class CreateSurveys < ActiveRecord::Migration
       t.text :conditions_comment
       t.integer :opinion_rating
       t.text :opinion_comment
-      t.integer :total_score
-      t.integer :unacceptable_scores
       t.timestamps
     end
     add_index :surveys, :survey_code
