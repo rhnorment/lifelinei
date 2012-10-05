@@ -5,9 +5,9 @@
   <div class="main-holder"><!-- main holder -->
     <div id="content"><!-- content -->
       <div class="content_full_width"><!-- start content full width -->
-        <%= table_for(@surveys, :html => { :class => 'zebra' }) do |t| %>
+        <%= table_for(@surveys, html: { class: 'zebra' }) do |t| %>
             <%= t.head("Survey Code", "Total Score", "Unacceptable Scores", "Submit Date", "Actions" ) %>
-            <%= t.body_r do |survey| %>
+            <%= t.body_r class: 'center' do |survey| %>
                 <%= t.d link_to survey.survey_code, survey %>
                 <%= t.d survey.total_score %>
                 <%= t.d survey.unacceptable_scores %>
