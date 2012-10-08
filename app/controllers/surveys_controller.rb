@@ -27,13 +27,6 @@ class SurveysController < ApplicationController
     end
   end
 
-  def edit
-  end
-
-  def update
-
-  end
-
   def destroy
     @survey = Survey.find(params[:id])
     @survey.destroy
