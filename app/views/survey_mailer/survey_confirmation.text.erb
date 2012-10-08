@@ -5,7 +5,7 @@ A New Training Feedback Form has been submitted via our website.  Here is the re
 Course ID:  <%= @survey.survey_code %>
 Submission Date:  <%= @survey.created_at %>
 Total Score:  <%= @survey.total_score %>
-Unacceptable Scores:
+Unacceptable Scores: <%= @survey.unacceptable_scores %>
 _________________________________________________________________
 
 Knowledge Rating: <%= @survey.knowledge_rating %>
