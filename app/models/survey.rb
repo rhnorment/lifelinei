@@ -45,7 +45,7 @@ class Survey < ActiveRecord::Base
   end
 
   def unacceptable_scores
-    self.unacceptable_scores = 0
+    self.unacceptable_scores = 6
   end
 
 end
