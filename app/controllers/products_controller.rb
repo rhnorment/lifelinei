@@ -5,19 +5,19 @@ class ProductsController < ApplicationController
   end
 
   def aeds
-    @title = "AEDs"
+    @title = "Automated External Defibrillators"
   end
 
   def accessories
     @title = "AED Accessories"
   end
 
-  def customer_reviews
-    @title = "Customer Reviews"
+  def comparison
+    @title = "AED Comparison"
   end
 
-  def professional_reviews
-    @title = "Professional Reviews"
+  def registration
+    @title = "AED Registration"
   end
 
 end

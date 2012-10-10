@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/about_us/help.html.erb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/about_us/testimonials.html.erb" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/products/comparison.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/products/registration.html.erb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/products/customer_reviews.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/products/professional_reviews.erb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/about_us_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/about_us_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/survey.rb" afterPath="$PROJECT_DIR$/app/models/survey.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/about_us/_sub_nav.erb" afterPath="$PROJECT_DIR$/app/views/about_us/_sub_nav.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/products_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/products_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_header_area.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_header_area.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_top_toolbar_left.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_top_toolbar_left.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_top_toolbar_right.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_top_toolbar_right.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/products/_sub_nav.erb" afterPath="$PROJECT_DIR$/app/views/products/_sub_nav.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/products/aeds.html.erb" afterPath="$PROJECT_DIR$/app/views/products/aeds.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
     </list>
     <ignored path="lifelinei.iws" />
@@ -30,19 +30,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="about_us_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/about_us_controller.rb">
+      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="123" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
+            <state line="26" column="61" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.39656815">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="_sub_nav.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/about_us/_sub_nav.erb">
+        <entry file="file://$PROJECT_DIR$/app/views/products/_sub_nav.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="120" selection-start="620" selection-end="620" vertical-scroll-proportion="-13.44">
+            <state line="26" column="82" selection-start="812" selection-end="812" vertical-scroll-proportion="-16.64">
               <folding />
             </state>
           </provider>
@@ -51,16 +51,16 @@
       <file leaf-file-name="_header_area.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_header_area.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="99" selection-start="809" selection-end="809" vertical-scroll-proportion="-9.6">
+            <state line="28" column="87" selection-start="1524" selection-end="1524" vertical-scroll-proportion="-17.92">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="products_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/products_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="19" selection-start="53" selection-end="53" vertical-scroll-proportion="0.030505244">
+            <state line="7" column="47" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -85,22 +85,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/db/migrate/20120928204021_create_surveys.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20121005194155_add_fields_to_survey.rb" />
-        <option value="$PROJECT_DIR$/app/views/surveys/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/surveys_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/surveys/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/survey_mailer/survey_confirmation.text.erb" />
         <option value="$PROJECT_DIR$/code.tzt" />
         <option value="$PROJECT_DIR$/app/models/survey.rb" />
         <option value="$PROJECT_DIR$/app/views/about_us/help.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_header_area.erb" />
         <option value="$PROJECT_DIR$/app/controllers/about_us_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/about_us/_sub_nav.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_top_toolbar_left.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_top_toolbar_right.erb" />
+        <option value="$PROJECT_DIR$/app/views/products/comparison.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/products/aeds.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/products_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/products/registration.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_header_area.erb" />
+        <option value="$PROJECT_DIR$/app/views/products/_sub_nav.erb" />
       </list>
     </option>
   </component>
@@ -226,7 +226,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
+              <option name="myItemId" value="products" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -248,7 +248,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="about_us" />
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -958,13 +958,18 @@
       <created>1349814851441</created>
       <updated>1349814851441</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Changed About Us menu structure and content.">
+      <created>1349895659099</created>
+      <updated>1349895659100</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="966" y="22" width="1594" height="1418" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -979,7 +984,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1020,7 +1024,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed survey mailer to show # of unacceptable scores." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed About Us menu structure and content." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1033,7 +1037,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="Added certified training text and route to survey form." />
     <MESSAGE value="added inner workings of survey form." />
     <MESSAGE value="added a before_save callback to the Survey controller to prohibit saving on anything below a '9' rating." />
     <MESSAGE value="changed README version file." />
@@ -1058,49 +1061,12 @@
     <MESSAGE value="added survey migration DB fields." />
     <MESSAGE value="added survey score methods to survey model." />
     <MESSAGE value="fixed survey mailer to show # of unacceptable scores." />
+    <MESSAGE value="Changed About Us menu structure and content." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/surveys/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="62" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.453125" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/survey_mailer/survey_confirmation.text.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="82" selection-start="511" selection-end="511" vertical-scroll-proportion="0.171875" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/surveys_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="32" selection-start="921" selection-end="921" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code.tzt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="53" selection-start="61" selection-end="363" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/survey.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="4" selection-start="1731" selection-end="1731" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/about_us/partners.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/about_us/main.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="39" selection-start="0" selection-end="1143" vertical-scroll-proportion="0.27738377">
@@ -1157,16 +1123,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/comparison.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="34" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/aeds.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="53" selection-start="53" selection-end="53" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/registration.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/products_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="47" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/_title_bar.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_header_area.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="99" selection-start="809" selection-end="809" vertical-scroll-proportion="-9.6">
+        <state line="28" column="87" selection-start="1524" selection-end="1524" vertical-scroll-proportion="-17.92">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/_sub_nav.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="82" selection-start="812" selection-end="812" vertical-scroll-proportion="-16.64">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="53" selection-end="53" vertical-scroll-proportion="0.030505244">
+        <state line="26" column="61" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.39656815">
           <folding />
         </state>
       </provider>
