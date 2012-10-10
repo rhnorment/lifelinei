@@ -12,7 +12,7 @@ class SurveysController < ApplicationController
 
   def new
     @survey = Survey.new
-    @title = "Training Feedback Form"
+    @title = "Class Survey"
   end
 
   def create

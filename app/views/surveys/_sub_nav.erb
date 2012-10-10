@@ -1,42 +1,17 @@
 <ul class="sub-menu"><!-- start sub menu -->
-  <li class=<%= get_action_klass('main') %>>
-    <%= link_to services_path do %>
-        <span>LifeLine Services & Support</span>
-    <% end %>
-  </li>
-  <li class=<%= get_action_klass('administration') %>>
-    <%= link_to administration_path do %>
-        <span>Program Administration</span>
-    <% end %>
-  </li>
-  <li class=<%= get_action_klass('oversight') %>>
-    <%= link_to oversight_path do %>
-        <span>Medical Oversight</span>
-    <% end %>
-  </li>
-  <li class=<%= get_action_klass('training') %>>
-    <%= link_to training_path do %>
-        <span>Certified Training</span>
-    <% end %>
-  </li>
-  <li class=<%= get_action_klass('financing') %>>
-    <%= link_to financing_path do %>
-        <span>Program Financing</span>
-    <% end %>
-  </li>
-  <li class=<%= get_action_klass('laws') %>>
-    <%= link_to laws_path do %>
-        <span>Rules & Regulations</span>
-    <% end %>
-  </li>
-  <li class=<%= get_action_klass('faqs') %>>
-    <%= link_to faqs_path do %>
-        <span>FAQs</span>
-    <% end %>
-  </li>
-  <li class=<%= get_action_klass('help') %>>
-    <%= link_to help_path do %>
-        <span>LifeLine Help</span>
-    <% end %>
-  </li>
+<li class=<%= get_action_klass('main') %>>
+  <%= link_to training_path do %>
+      <span>Training Solutions</span>
+  <% end %>
+</li>
+<li class=<%= get_action_klass('certified') %>>
+  <%= link_to certified_path do %>
+      <span>Certified Training</span>
+  <% end %>
+</li>
+<li class=<%= get_action_klass('survey') %>>
+  <%= link_to new_survey_path do %>
+      <span>Class Survey</span>
+  <% end %>
+</li>
 </ul><!-- end sub menu -->

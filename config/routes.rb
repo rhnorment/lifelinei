@@ -26,11 +26,14 @@ Lifelinei::Application.routes.draw do
   get "products/comparison",                as: 'comparison'
   get "products/registration",              as: 'registration'
 
+  # Training paths:
+  get "training/main",                      as: 'training'
+  get "training/certified",                 as: 'certified'
+
   # Support & Services paths:
   get "services/main",                      as:   'services'
   get "services/administration",            as:   'administration'
   get "services/oversight",                 as:   'oversight'
-  get "services/training",                  as:   'training'
   get "services/financing",                 as:   'financing'
   get "services/laws",                      as:   'laws'
   get "services/faqs",                      as:   'faqs'

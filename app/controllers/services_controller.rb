@@ -12,14 +12,6 @@ class ServicesController < ApplicationController
     @title = "Medical Oversight"
   end
 
-  def training
-    @title = "Certified Training"
-  end
-
-  def survey
-    @title = "Training Feedback Form"
-  end
-
   def faqs
     @title = "FAQs"
     @faqs = Faq.paginate(:page => params[:page], :per_page => 10).order('number ASC')

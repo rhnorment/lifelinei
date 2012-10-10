@@ -1,0 +1,17 @@
+<ul class="sub-menu"><!-- start sub menu -->
+  <li class=<%= get_action_klass('main') %>>
+    <%= link_to training_path do %>
+        <span>Training Solutions</span>
+    <% end %>
+  </li>
+  <li class=<%= get_action_klass('certified') %>>
+    <%= link_to certified_path do %>
+        <span>Certified Training</span>
+    <% end %>
+  </li>
+  <li class=<%= get_action_klass('survey') %>>
+    <%= link_to new_survey_path do %>
+        <span>Class Survey</span>
+    <% end %>
+  </li>
+</ul><!-- end sub menu -->

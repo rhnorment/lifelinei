@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/training_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/training_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/training/_sub_nav.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/training/_title_bar.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/training/certified.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/training/main.html.erb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/solutions_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/services/training.html.erb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/about_us/_sub_nav.erb" afterPath="$PROJECT_DIR$/app/views/about_us/_sub_nav.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/services_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/services_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/surveys_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/surveys_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_header_area.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_header_area.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/services/_sub_nav.erb" afterPath="$PROJECT_DIR$/app/views/services/_sub_nav.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/surveys/_sub_nav.erb" afterPath="$PROJECT_DIR$/app/views/surveys/_sub_nav.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/surveys/_title_bar.erb" afterPath="$PROJECT_DIR$/app/views/surveys/_title_bar.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
     </list>
     <ignored path="lifelinei.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,19 +36,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="60" selection-start="1790" selection-end="1790" vertical-scroll-proportion="0.6253575">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_header_area.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_header_area.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_header_area.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="87" selection-start="1524" selection-end="1524" vertical-scroll-proportion="-17.92">
+            <state line="22" column="89" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.34375">
               <folding />
             </state>
           </provider>
@@ -59,22 +64,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/survey_mailer/survey_confirmation.text.erb" />
-        <option value="$PROJECT_DIR$/code.tzt" />
-        <option value="$PROJECT_DIR$/app/models/survey.rb" />
-        <option value="$PROJECT_DIR$/app/views/about_us/help.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/about_us_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_top_toolbar_left.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_top_toolbar_right.erb" />
-        <option value="$PROJECT_DIR$/app/views/products/comparison.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/products/aeds.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/products_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/products/registration.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_header_area.erb" />
-        <option value="$PROJECT_DIR$/app/views/products/_sub_nav.erb" />
         <option value="$PROJECT_DIR$/app/views/contacts/_title_bar.erb" />
         <option value="$PROJECT_DIR$/app/views/about_us/_sub_nav.erb" />
+        <option value="$PROJECT_DIR$/app/helpers/training_helper.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/services_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/training/main.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/training/training.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/training/certified.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/training_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/training/_sub_nav.erb" />
+        <option value="$PROJECT_DIR$/app/views/training/_title_bar.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_header_area.erb" />
+        <option value="$PROJECT_DIR$/app/views/services/_sub_nav.erb" />
+        <option value="$PROJECT_DIR$/app/views/surveys/_title_bar.erb" />
+        <option value="$PROJECT_DIR$/app/views/surveys/_sub_nav.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/surveys_controller.rb" />
       </list>
     </option>
   </component>
@@ -181,26 +186,8 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lifelinei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifelinei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
+              <option name="myItemId" value="training" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -222,7 +209,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="about_us" />
+              <option name="myItemId" value="surveys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifelinei" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifelinei" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -944,7 +949,11 @@
       <created>1349897257878</created>
       <updated>1349897257879</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="fixed missions path.">
+      <created>1349897500700</created>
+      <updated>1349897500700</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1006,7 +1015,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed Contact Us cookie crumb." />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed missions path." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1019,7 +1028,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="changed README version file." />
     <MESSAGE value="changed survey table, completed form." />
     <MESSAGE value="fixed survey form formatting." />
     <MESSAGE value="Fixed form CSS and have working survey form." />
@@ -1044,119 +1052,120 @@
     <MESSAGE value="Changed About Us menu structure and content." />
     <MESSAGE value="Changed Products menu structure and content." />
     <MESSAGE value="Changed Contact Us cookie crumb." />
+    <MESSAGE value="fixed missions path." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/helpers/about_us_helper.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/services_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="12" column="5" selection-start="221" selection-end="221" vertical-scroll-proportion="0.18303145">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_top_toolbar_left.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/about_us/main.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="45" selection-start="74" selection-end="74" vertical-scroll-proportion="0.03125">
+        <state line="22" column="41" selection-start="0" selection-end="1143" vertical-scroll-proportion="0.34375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_top_toolbar_right.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/training/certified.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="6" selection-start="29" selection-end="29" vertical-scroll-proportion="0.015625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/comparison.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="34" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/aeds.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="53" selection-start="53" selection-end="53" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/registration.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/products_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="47" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header_area.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="87" selection-start="1524" selection-end="1524" vertical-scroll-proportion="-17.92">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/contacts_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/_title_bar.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="22" selection-start="638" selection-end="638" vertical-scroll-proportion="0.23952095">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/contacts_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="44" column="28" selection-start="3612" selection-end="3612" vertical-scroll-proportion="0.69634026">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/contacts/_title_bar.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="48" selection-start="449" selection-end="449" vertical-scroll-proportion="0.171875">
+        <state line="11" column="29" selection-start="0" selection-end="449" vertical-scroll-proportion="0.171875">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/_sub_nav.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/training/_title_bar.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="82" selection-start="812" selection-end="812" vertical-scroll-proportion="0.40625">
+        <state line="11" column="32" selection-start="459" selection-end="459" vertical-scroll-proportion="-7.04">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/products_helper.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/training/_sub_nav.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/about_us/_sub_nav.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="53" selection-start="758" selection-end="758" vertical-scroll-proportion="0.40625">
+        <state line="16" column="33" selection-start="1" selection-end="504" vertical-scroll-proportion="0.25548902">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="60" selection-start="1790" selection-end="1790" vertical-scroll-proportion="0.6253575">
+        <state line="31" column="87" selection-start="1340" selection-end="1340" vertical-scroll-proportion="0.48296008">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/surveys/_title_bar.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="45" selection-start="459" selection-end="459" vertical-scroll-proportion="0.1756487">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/services/_title_bar.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="52" selection-start="645" selection-end="645" vertical-scroll-proportion="0.234375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/services/_sub_nav.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="7" selection-start="507" selection-end="507" vertical-scroll-proportion="0.234375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/surveys_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="26" selection-start="349" selection-end="349" vertical-scroll-proportion="0.2135367">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/training/main.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="10" selection-start="277" selection-end="277" vertical-scroll-proportion="0.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/solutions_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/training_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="87" selection-start="163" selection-end="163" vertical-scroll-proportion="0.16777883">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/surveys/_sub_nav.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="59" selection-start="474" selection-end="474" vertical-scroll-proportion="0.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header_area.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="89" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.34375">
           <folding />
         </state>
       </provider>
