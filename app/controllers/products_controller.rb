@@ -1,7 +1,7 @@
 class ProductsController < ApplicationController
 
   def main
-    @title = "Our Products"
+    @title = "Product Solutions"
   end
 
   def aeds

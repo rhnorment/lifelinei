@@ -34,9 +34,7 @@ Lifelinei::Application.routes.draw do
   get "services/main",                      as:   'services'
   get "services/administration",            as:   'administration'
   get "services/oversight",                 as:   'oversight'
-  get "services/financing",                 as:   'financing'
-  get "services/laws",                      as:   'laws'
-  get "services/faqs",                      as:   'faqs'
+  get "services/monitor",                   as:   'monitor'
 
   # RESTful routes:
   resources                                 :contacts

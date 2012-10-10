@@ -1,7 +1,7 @@
 class ServicesController < ApplicationController
 
   def main
-    @title = "LifeLine Services"
+    @title = "Implementation"
   end
 
   def administration
@@ -12,21 +12,13 @@ class ServicesController < ApplicationController
     @title = "Medical Oversight"
   end
 
+  def monitor
+    @title = "Compliance Monitor"
+  end
+
   def faqs
     @title = "FAQs"
     @faqs = Faq.paginate(:page => params[:page], :per_page => 10).order('number ASC')
-  end
-
-  def financing
-    @title = "Program Financing"
-  end
-
-  def laws
-    @title = "Rules & Regulations"
-  end
-
-  def help
-    @title = "LifeLine Help"
   end
 
 end
