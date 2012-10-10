@@ -8,12 +8,12 @@ class AboutUsController < ApplicationController
     @title = "Our Mission"
   end
 
-  def testimonials
-    @title = "Client Testimonials"
-  end
-
   def partners
     @title = "Our Partners"
+  end
+
+  def help
+    @title = "LifeLine Help"
   end
 
 end

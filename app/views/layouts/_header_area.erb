@@ -9,10 +9,11 @@
         <span><strong>About Us</strong><span class="navi-description">about our company</span></span>
     <% end %>
     <ul class="sub-menu">
-      <li><%= link_to mission_path do %><span>Our Mission</span><% end %></li>
-      <li><%= link_to testimonials_path do %><span>Client Testimonials</span><% end %></li>
-      <li><%= link_to partners_path do %><span>Our Partners</span><% end %></li>
       <li><%= link_to new_contact_path do %><span>Contact Us</span><% end %></li>
+      <li><%= link_to mission_path do %><span>Our Mission</span><% end %></li>
+      <li><%= link_to partners_path do %><span>Our Partners</span><% end %></li>
+      <li><%= link_to help_path do %><span>Help</span><% end %></li>
+      <li><%= link_to "#" do %><span>Client Login</span><% end %></li>
     </ul>
   </li><!-- END ABOUT US LIVE MENU -->
   <li class=<%= get_controller_klass('solutions') %>><!-- SOLTIONs SMENU -->

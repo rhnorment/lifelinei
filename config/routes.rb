@@ -6,8 +6,8 @@ Lifelinei::Application.routes.draw do
   # About Us paths;
   get "about_us/main",                      as:  'about_us'
   get "about_us/mission",                   as:  'mission'
-  get "about_us/testimonials",              as:  'testimonials'
   get "about_us/partners",                  as:  'partners'
+  get "about_us/help",                      as:  'help'
 
   # Solutions_path:
   get "solutions/main",                     as: "solutions"
@@ -34,7 +34,6 @@ Lifelinei::Application.routes.draw do
   get "services/financing",                 as:   'financing'
   get "services/laws",                      as:   'laws'
   get "services/faqs",                      as:   'faqs'
-  get "services/help",                      as:   'help'
 
   # RESTful routes:
   resources                                 :contacts

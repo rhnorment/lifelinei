@@ -4,14 +4,9 @@
         <span>About Us</span>
     <% end %>
   </li>
-  <li class=<%= get_action_klass('mission') %>>
-    <%= link_to mission_path do %>
-        <span>Our Mission</span>
-    <% end %>
-  </li>
-  <li class=<%= get_action_klass('testimonials') %>>
-    <%= link_to testimonials_path do %>
-        <span>Customer Testimonials</span>
+  <li class=<%= get_action_klass('contact') %>>
+    <%= link_to new_contact_path do %>
+        <span>Contact Us</span>
     <% end %>
   </li>
   <li class=<%= get_action_klass('partners') %>>
@@ -19,9 +14,9 @@
         <span>Our Partners</span>
     <% end %>
   </li>
-  <li>
-    <%= link_to new_contact_path do %>
-        <span>Contact Us</span>
+  <li class=<%= get_action_klass('help') %>>
+    <%= link_to help_path do %>
+        <span>LifeLine Help</span>
     <% end %>
   </li>
 </ul><!-- end sub menu -->
