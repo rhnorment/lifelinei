@@ -9,6 +9,11 @@
         <span>Contact Us</span>
     <% end %>
   </li>
+  <li class=<%= get_action_klass('mission') %>>
+    <%= link_to mission_path do %>
+        <span>Our Mission</span>
+    <% end %>
+  </li>
   <li class=<%= get_action_klass('partners') %>>
     <%= link_to partners_path do %>
         <span>Our Partners</span>
