@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/services_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/services_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/services/_sub_nav.erb" afterPath="$PROJECT_DIR$/app/views/services/_sub_nav.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/services/_title_bar.erb" afterPath="$PROJECT_DIR$/app/views/services/_title_bar.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/services/main.html.erb" afterPath="$PROJECT_DIR$/app/views/services/main.html.erb" />
     </list>
     <ignored path="lifelinei.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -881,7 +878,11 @@
       <created>1349983263028</created>
       <updated>1349983263028</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="changed documentation menu">
+      <created>1349983565595</created>
+      <updated>1349983565595</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1071,7 +1072,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/services/_title_bar.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="51" selection-start="638" selection-end="638" vertical-scroll-proportion="0.234375">
+        <state line="15" column="64" selection-start="637" selection-end="637" vertical-scroll-proportion="0.234375">
           <folding />
         </state>
       </provider>
