@@ -5,7 +5,7 @@
       <p class="breadcrumb"><!-- breadcrumb -->
         <%= link_to 'Home', root_path %>
         <% if current_page?(:controller => 'services', :action => 'main') %>
-            <span class="current_crumb">Implementation</span>
+            <span class="current_crumb">Documentation</span>
         <% else %>
             <%= link_to 'Implementation', services_path %>
             <span class="current_crumb"><%= @title %></span>
