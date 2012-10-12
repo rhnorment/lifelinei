@@ -37,7 +37,8 @@ class Survey < ActiveRecord::Base
   validates              :survey_code, length: { is: 12 }
 
   #callbacks
-  before_create          :total_score,  :unacceptable_scores
+  before_create          :total_score
+  before_create          :unacceptable_scores
 
   def total_score
     self.total_score = 0
@@ -45,7 +46,8 @@ class Survey < ActiveRecord::Base
   end
 
   def unacceptable_scores
-
+    self.unacceptable_scores = 0
+    self.unacceptable_scores = 9
   end
 
 end

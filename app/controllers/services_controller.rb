@@ -1,7 +1,7 @@
 class ServicesController < ApplicationController
 
   def main
-    @title = "Documentation"
+    @title = "Documentation Solutions"
   end
 
   def administration
