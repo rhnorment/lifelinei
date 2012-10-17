@@ -46,8 +46,14 @@ class Survey < ActiveRecord::Base
   end
 
   def unacceptable_scores
-    self.unacceptable_scores = 0
-    self.unacceptable_scores = 9
+    unacceptable_scores = 0
+    scores = [ self.knowledge_rating, self.availability_rating, self.instructor_rating, self.confidence_rating, self.conditions_rating, self.opinion_rating ]
+    scores.each do |score|
+      if score < 9
+        unacceptable_scores += 1
+      end
+    end
+    self.unacceptable_scores = unacceptable_scores
   end
 
 end
