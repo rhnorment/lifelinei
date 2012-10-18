@@ -2,7 +2,8 @@ namespace :db do
   desc "Fill database with sample data"
   task populate: :environment do
     # make_aeds
-    make_faqs
+    # make_faqs
+    make_user_accounts
   end
 end
 
@@ -313,5 +314,25 @@ def make_faqs
                         there may be different standards for when Medical Direction becomes active or inactive.  LifeLine will help your organization
                         through that process."
   )
+end
+
+def make_user_accounts
+  User.delete_all
+  admin1 = User.create!( name:          "Hunt Norment",
+                customer:               "LaunchRipe LLC",
+                enail:                  "norment@gmail.com",
+                password:               "mmedia",
+                password_comfirmation:  "mmedia",
+                customer_admin:          false
+  )
+  admin1.toggle(:admin)
+  admin2 = User.create!( name:                   "David Matychuck",
+                         customer:               "LiefeLine, Inc.",
+                         enail:                  "dsm@lifelinei.com",
+                         password:               "soccer",
+                         password_comfirmation:  "soccer",
+                         customer_admin:          false
+  )
+  admin2.toggle(:admin)
 end
 

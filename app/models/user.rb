@@ -17,7 +17,7 @@
 class User < ActiveRecord::Base
 
   # class attributes:
-  attr_accessible :admin, :email, :name, :password_digest, :remember_token, :customer_admin,  :customer
+  attr_accessible :admin, :email, :name, :password, :password_confiration, :customer_admin,  :customer
 
   # model validations:
 
