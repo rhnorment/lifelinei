@@ -1,5 +1,7 @@
 Lifelinei::Application.routes.draw do
 
+  resources :users
+
   # Root path:
   root                                      to: 'home#index'
 
