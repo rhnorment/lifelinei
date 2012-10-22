@@ -423,13 +423,13 @@ body {margin:0;background:#f4f4f2;font:1.2em/19px "helvetica neue",Helvetica,Ari
 /*---------------------------------------------------------------*/
 #menu-main-nav {list-style:none;margin:0;padding:0;list-style:none;float:right;}
 #menu-main-nav a {outline: none;}
-#menu-main-nav li {float:left;padding:5px 31px 12px 13px;position:relative;vertical-align:top;height:1%;margin-right: 2px;}
+#menu-main-nav li {float:left;padding:5px 22px 12px 13px;position:relative;vertical-align:top;height:1%;margin-right: 2px;}
 #menu-main-nav ul li {background: none !important;}
 #menu-main-nav li.parent:hover {position:relative;}
 #menu-main-nav li.parent li.parent:hover {background:none !important;}
 #menu-main-nav li.parent li.parent li.parent:hover {background:none !important;}
 #menu-main-nav li.parent {letter-spacing:0.2px;}
-#menu-main-nav li strong {text-transform:uppercase;display:block;font-size:13px;letter-spacing: 0.6px;font-weight:800;}
+#menu-main-nav li strong {text-transform:uppercase;display:block;font-size:13px;/*letter-spacing: 0.6px;font-weight:800;*/}
 #menu-main-nav a {display:block;}
 #menu-main-nav a:hover {background-position:0 0;text-decoration:none;}
 #menu-main-nav .drop {width:236px;padding:0 1px 0 1px;position:absolute;left:-1px;top:52px;display:none;z-index:999;}
@@ -520,7 +520,7 @@ body {margin:0;background:#f4f4f2;font:1.2em/19px "helvetica neue",Helvetica,Ari
 a {color:#666;outline: none;}
 #menu-main-nav a, #sub_nav a, #wrapper .tabset a {text-decoration: none;}
 a:hover { text-decoration:underline;}
-#header .logo { flaot: left; margin-left:22px;outline: none; position: absolute; z-index:1000;}
+#header .logo { float: left; position: relative; left: 18px; bottom: 24px; /* float:left;margin-left:22px;outline: none; position: absolute; z-index:1000; */ }
 #header .sub-nav a, #header .sub-nav2 a {color: #575C60;text-decoration: none;}
 #header .sub-nav a:hover, #header .sub-nav2 a:hover {color: #8B949A;}
 #header .sub-nav li, #header .sub-nav2 li {color: #575C60;}
@@ -1485,3 +1485,24 @@ div.nav_right_sub_nav ul.sub-menu {
 div.nav_right_sub_nav ul.sub-menu li.current_page_item {
     font-weight: normal !important;
 }
+
+/*
+    SURVEY STYLING
+*/
+
+form .error {
+    display: none;
+
+    color: red;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+form .need-feedback textarea {
+    border: 1px solid red !important;
+}
+
+form .need-feedback .error {
+    display: block !important;
+} 
