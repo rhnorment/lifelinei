@@ -429,7 +429,7 @@ body {margin:0;background:#f4f4f2;font:1.2em/19px "helvetica neue",Helvetica,Ari
 #menu-main-nav li.parent li.parent:hover {background:none !important;}
 #menu-main-nav li.parent li.parent li.parent:hover {background:none !important;}
 #menu-main-nav li.parent {letter-spacing:0.2px;}
-#menu-main-nav li strong {text-transform:uppercase;display:block;font-size:13px;/*letter-spacing: 0.6px;font-weight:800;*/}
+#menu-main-nav li strong {text-transform:uppercase;display:block;font-size:13px;letter-spacing: 0.6px;font-weight:800;}
 #menu-main-nav a {display:block;}
 #menu-main-nav a:hover {background-position:0 0;text-decoration:none;}
 #menu-main-nav .drop {width:236px;padding:0 1px 0 1px;position:absolute;left:-1px;top:52px;display:none;z-index:999;}
@@ -1485,3 +1485,24 @@ div.nav_right_sub_nav ul.sub-menu {
 div.nav_right_sub_nav ul.sub-menu li.current_page_item {
     font-weight: normal !important;
 }
+
+/*
+    SURVEY STYLING
+*/
+
+form .error {
+    display: none;
+
+    color: red;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+form .need-feedback textarea {
+    border: 1px solid red !important;
+}
+
+form .need-feedback .error {
+    display: block !important;
+} 
