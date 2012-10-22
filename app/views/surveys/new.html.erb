@@ -32,3 +32,25 @@
     </div><!-- end sub nav -->
   </div><!-- end main holder -->
 </div><!-- end main area -->
+
+<%= javascript_tag do %>
+    ( function( $ ) {
+        $( document ).ready( function() {
+            var surveyInput = $( '#survey_opinion_rating' );
+            var commentContainer = surveyInput.closest( '.element-wrapper' ).next( '.element-wrapper' );
+
+            // generate error label in javascript until a ruby solution can be found
+            commentContainer.find( 'label' ).after( '<div class="error">Please tell us what would it take to receive a score of 10?  Please be as specific as possible, thank you for your feedback!  If you would like your customer service rep to contact you please add your name, email address and phone number.</div>' );
+
+            surveyInput.change( function() {
+                var value = $( this ).val();
+
+                if( value && ( value <= 9 ) ) {
+                    commentContainer.addClass( 'need-feedback' );
+                } else {
+                    commentContainer.removeClass( 'need-feedback' );
+                }
+            });
+        });
+    })( jQuery )
+<% end %>
