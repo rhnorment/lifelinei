@@ -103,7 +103,7 @@ body {margin:0;background:#f4f4f2;font:1.2em/19px "helvetica neue",Helvetica,Ari
 #wrapper #header {display:table-header-group;height:}
 .top-block .top-holder {width:980px;margin:0 auto;font-size:10px;padding:4px 0;min-height:4px;height:auto;}
 .top-block .top-holder:after {clear:both;display:block;content:"";}
-#header .rays {background: url(..images/_global/rays.png) 50% 0 no-repeat;}
+#header .rays {background: url(../images/_global/rays.png) 50% 0 no-repeat;}
 #header .header-area {width:980px;margin:0 auto;padding:38px 0 33px 0;}
 #header .header-area:after {clear:both;display:block;content:"";}
 #main {background:url(../images_global/bg-main.gif) repeat-x;display:table-footer-group;position:relative;width:100%;}
@@ -1139,7 +1139,8 @@ td#today{font-weight:bold;}
 .social_icons .foursquare {background:url(/images/_global/social-icons/foursquare.png) 0 0 no-repeat;}
 .social_icons .delicious {background:url(/images/_global/social-icons/delicious.png) 0 0 no-repeat;}
 .social_icons .digg {background:url(/images/_global/social-icons/digg.png) 0 0 no-repeat;}
-.social_icons .email {background:url(/images/_global/social-icons/email.png) 0 0 no-repeat; width:50px; height:32px;}
+.social_icons .email {background:url(/images/_global/social-icons/email.png) 0 0 no-repeat;}
+.social_icons .pinterest {background:url(/images/_global/social-icons/pinterest.png) 0 0 no-repeat;}
 
 #sidebar .sidebar-widget .social_icons, #sidebar .social_icons {float: none !important;padding-top: 10px;}
 #sidebar .sidebar-widget .social_icons li, #sidebar .social_icons li {padding:0 !important;background-image:none !important;}
