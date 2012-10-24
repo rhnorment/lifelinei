@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/_global/social-icons/pinterest.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/_global/social-icons/email.png" afterPath="$PROJECT_DIR$/public/images/_global/social-icons/email.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/_global/social-icons/facebook.png" afterPath="$PROJECT_DIR$/public/images/_global/social-icons/facebook.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/_global/social-icons/linkedin.png" afterPath="$PROJECT_DIR$/public/images/_global/social-icons/linkedin.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/_global/social-icons/twitter.png" afterPath="$PROJECT_DIR$/public/images/_global/social-icons/twitter.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/_global/social-icons/youtube.png" afterPath="$PROJECT_DIR$/public/images/_global/social-icons/youtube.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_footer.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
@@ -28,7 +22,17 @@
     <disable_hints />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="_footer.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="70" selection-start="2296" selection-end="2296" vertical-scroll-proportion="0.56973296">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -912,13 +916,18 @@
       <created>1351024975993</created>
       <updated>1351024975993</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="modified and added social networking icons and links.">
+      <created>1351110275239</created>
+      <updated>1351110275240</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="966" y="22" width="1594" height="1418" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -933,7 +942,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -974,7 +982,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added 'more' to useful links on footer." />
+    <option name="LAST_COMMIT_MESSAGE" value="modified and added social networking icons and links." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -987,7 +995,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="add total scores to surveys and validations for scores below 9." />
     <MESSAGE value="added new total fields in survey table." />
     <MESSAGE value="added total scores and unacceptable scores to training feedback" />
     <MESSAGE value="fixed form styling and flash fades." />
@@ -1012,26 +1019,12 @@
     <MESSAGE value="added phone and contact us link to top_header and bottom_footer." />
     <MESSAGE value="changed home page images and subtitles." />
     <MESSAGE value="added 'more' to useful links on footer." />
+    <MESSAGE value="modified and added social networking icons and links." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20121018205339_create_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="21" selection-start="480" selection-end="480" vertical-scroll-proportion="0.25929457" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.015252622" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/user_mailer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/data.rake">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="119" selection-start="1597" selection-end="1597" vertical-scroll-proportion="0.61010486" />
@@ -1087,16 +1080,37 @@
         <state line="37" column="45" selection-start="1890" selection-end="1890" vertical-scroll-proportion="0.28125" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.erb">
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/karma-grey.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="41" selection-start="2770" selection-end="2770" vertical-scroll-proportion="0.671875">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/secondary-grey.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1138" column="131" selection-start="70201" selection-end="70201" vertical-scroll-proportion="0.38610038">
+        <state line="132" column="56" selection-start="3877" selection-end="3877" vertical-scroll-proportion="-2.996139">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/rails">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.07626311">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="70" selection-start="2296" selection-end="2296" vertical-scroll-proportion="0.56973296">
           <folding />
         </state>
       </provider>
