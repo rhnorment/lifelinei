@@ -103,10 +103,14 @@ body {margin:0;background:#f4f4f2;font:1.2em/19px "helvetica neue",Helvetica,Ari
 #wrapper #header {display:table-header-group;height:}
 .top-block .top-holder {width:980px;margin:0 auto;font-size:10px;padding:4px 0;min-height:4px;height:auto;}
 .top-block .top-holder:after {clear:both;display:block;content:"";}
-#header .rays {background: url(../images/_global/rays.png) 50% 0 no-repeat;}
-#header .header-area {width:980px;margin:0 auto;padding:38px 0 33px 0;}
+#header .rays {
+	background: url(../images/_global/rays.png) no-repeat 50% 0;
+}
+#header .header-area {width:980px;margin:0 auto;padding: 38px 0 0;}
 #header .header-area:after {clear:both;display:block;content:"";}
-#main {background: url(../images/_global/bg-main.gif) repeat-x;display:table-footer-group;position:relative;width:100%;}
+#main {display:table-footer-group;position:relative;width:100%;
+	background: url(../images/_global/bg-main.gif) repeat-x;
+}
 #main .main-area {width:980px;margin:0 auto;padding:43px 0 5px 0;}
 .tools .place {float:right;}
 .main-holder {height:1%;overflow:hidden;padding-top:45px;}
@@ -131,31 +135,47 @@ body {margin:0;background:#f4f4f2;font:1.2em/19px "helvetica neue",Helvetica,Ari
 
 
 /* Preloading */
-.preload_one {width: 703px;height: 563px;background: url(/_global/preload.gif) center center no-repeat;}
-.preload_two {width: 437px;height: 234px;background: url(/_global/preload.gif) center center no-repeat;}
-.preload_three {width: 275px;height: 145px;background: url(/images/_global/preload-small.gif) center center no-repeat;}
-.preload_four {width: 190px;height: 111px;background: url(/images/_global/preload-small.gif) center center no-repeat;}
+.preload_one {width: 703px;height: 563px;
+	background: url(../images/_global/preload.gif) no-repeat center center;
+}
+.preload_two {width: 437px;height: 234px;
+	background: url(../images/_global/preload.gif) no-repeat center center;
+}
+.preload_three {width: 275px;height: 145px;
+	background: url(../images/_global/preload-small.gif) no-repeat center center;
+}
+.preload_four {width: 190px;height: 111px;
+	background: url(../images/_global/preload-small.gif) no-repeat center center;
+}
 
 
 /* 1 column */
 .portfolio_one_column{width: 191px;float: left;}
-.portfolio_one_column_last {float: right;width: 722px;height: 602px;background: url(/images/_global/global-sprite.png) 0 -31px no-repeat;position: relative;}
+.portfolio_one_column_last {float: right;width: 722px;height: 602px;position: relative;
+	background: url(../images/_global/global-sprite.png) no-repeat 0 -31px;
+}
 .port_img_one {width: 703px;height: 563px;float: left;position: absolute;top:8px;left:9px;}
 
 
 /* 2 columns */
 .port_img_two {width: 437px;height: 234px;float: left;position: absolute;top:8px;left:9px;}
-.portfolio_content_top {float: left;width: 455px;height: 272px;background: url(/images/_global/image-frame-sprite.png) 0px 0px no-repeat;}
+.portfolio_content_top {float: left;width: 455px;height: 272px;
+	background: url(../images/_global/image-frame-sprite.png) no-repeat 0px 0px;
+}
 
 
 /* 3 columns */
 .port_img_three {width: 275px;height: 145px;float: left;position: absolute;top:8px;left:9px;}
-.portfolio_content_top_three {float: left;height: 179px;width: 293px;background: url(/images/_global/image-frame-sprite.png) -1px -279px no-repeat;}
+.portfolio_content_top_three {float: left;height: 179px;width: 293px;
+	background: url(../images/_global/image-frame-sprite.png) no-repeat -1px -279px;
+}
 
 
 /* 4 columns */
 .port_img_four {width: 208px;height: 146px;float: left;position: absolute;top:8px;left:9px;}
-.portfolio_content_top_four {float: left;height: 146px;width: 208px;background: url(/images/_global/image-frame-sprite.png) -2px -465px no-repeat;}
+.portfolio_content_top_four {float: left;height: 146px;width: 208px;
+	background: url(../images/_global/image-frame-sprite.png) no-repeat -2px -465px;
+}
 
 
 /*---------------------------------------------------------------*/
@@ -333,8 +353,12 @@ body {margin:0;background:#f4f4f2;font:1.2em/19px "helvetica neue",Helvetica,Ari
 /* 6. SIDEBAR
 /*---------------------------------------------------------------*/
 #sidebar {background:url(/images/_global/bg-sidebar.gif) 0 0 repeat-y;padding-bottom:65px;float: right;width: 173px;padding: 0 0 0 25px;}
-.left_sidebar {float: left !important;background:url(/images/_global/bg-sidebar.gif) top right repeat-y !important;padding: 0 25px 0 0 !important;margin: 0 0 0 25px;}
-.contact_iphone {background:url(/images/_global/bg-iphone-sidebar.png) 100% 0 no-repeat;height: 594px;position:relative;}
+.left_sidebar {float: left !important;padding: 0 25px 0 0 !important;margin: 0 0 0 25px;
+	background: url(../images/_global/bg-sidebar.gif) repeat-y right;
+}
+.contact_iphone {height: 594px;position:relative;
+	background: url(../images/_global/bg-iphone-sidebar.png) no-repeat 100% 0;
+}
 .contact_iphone .sidebar-iphone, .contact_iphone .sidebar-widget {width:180px !important;}
 .iphone-wrap {margin:110px 0 0 75px;background: none !important;padding-top:5px;}
 .sidebar-iphone .social_icons {margin:0;padding:3px 0 0 0;float: none !important;}
@@ -352,23 +376,33 @@ body {margin:0;background:#f4f4f2;font:1.2em/19px "helvetica neue",Helvetica,Ari
 .home-flash-slider{width:940px;height:400px;margin:95px auto 0 auto;}
 
 /* Tall Banner General Settings */
-.big-banner .rays {background: url(/_global/rays-big.png) 50% 0 no-repeat !important;height: 389px !important;}
+.big-banner .rays {height: 389px !important;
+	background: url(../images/_global/rays-big.png) no-repeat 50% 0;
+}
 .big-banner #header .header-holder {height: 438px !important;}
 .big-banner #main {background-image:none !important;}
 .big-banner #main .main-area {padding-top: 118px;}
 .big-banner #main .flash-main-area {padding-top: 0px !important;}
 
-.home-banner-wrap {width:940px;height:419px;margin:87px auto 0 auto;background:url(/images/_global/bg-home-banner.png) 0px 0px no-repeat;position:relative;}
+.home-banner-wrap {width:940px;height:419px;margin:87px auto 0 auto;position:relative;
+	background: url(../images/_global/bg-home-banner.png) no-repeat 0px 0px;
+}
 .big-banner .content_full_width {padding-top: 0px !important;}
 .home-banner-main {width: 350px;top:32px;left:45px;position:absolute;}
-.home-banner-sub {width: 456px;height:309px;background:url(/images/_global/shadowBG.jpg) 0px 0px no-repeat;top:40px;right:40px;position:absolute;}
+.home-banner-sub {width: 456px;height:309px;top:40px;right:40px;position:absolute;
+	background: url(../images/_global/shadowBG.jpg) no-repeat 0px 0px;
+}
 .home-banner-sub-content {width: 436px;height:270px;margin: 10px 0 0 10px;}
-.home-banner-sub-full {width: 860px;height:304px;background:url(/images/_global/shadowBG-full.jpg) 0px 0px no-repeat;top:40px;right:40px;position:absolute;}
+.home-banner-sub-full {width: 860px;height:304px;top:40px;right:40px;position:absolute;
+	background: url(../images/_global/shadowBG-full.jpg) no-repeat 0px 0px;
+}
 .home-banner-sub-content-full {width: 840px;height:270px;margin: 10px 0 0 10px;}
 .home-bnr-jquery {position:relative;}
 
 /* jQuery 2 */
-.home-banner-wrap ul {list-style:none;margin:0;padding:0;width:940px;height:381px;background-image: url("/images/_global/home-preloader.gif");background-position:center;background-repeat: no-repeat;}
+.home-banner-wrap ul {list-style:none;margin:0;padding:0;width:940px;height:381px;
+	background: url(../images/_global/home-preloader.gif) no-repeat center;
+}
 .home-banner-wrap li {width:940px;height:381px;}
 .home-banner-wrap li.jqslider{display: none;}
 .jquery-pager {text-align:center;padding-top: 20px;}
