@@ -40,6 +40,7 @@ Lifelinei::Application.routes.draw do
 
   # Customer Portal paths:
   get "portals/lifeline",                   as: 'lifeline'
+  get 'portals/jli',                        as: 'jli'
 
   # RESTful routes:
   resources                                 :contacts
