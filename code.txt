@@ -1,3 +1,14 @@
+<div class="tools"><!-- tools -->
+  <div class="holder"><!-- holder -->
+    <div class="frame"><!-- frame -->
+      <h1><%= @title %></h1>
+    </div><!-- end frame -->
+  </div><!-- end holder -->
+</div><!-- end tools -->
+
+
+
+
 <% provide(:title, "Customer Portal") %>
 
 <div class="main-area"><!-- main area -->

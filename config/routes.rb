@@ -1,7 +1,5 @@
 Lifelinei::Application.routes.draw do
 
-  get "login/login"
-
   resources :users
 
   # Root path:
@@ -41,7 +39,7 @@ Lifelinei::Application.routes.draw do
   get "services/monitor",                   as:   'monitor'
 
   # Customer Portal paths:
-  get "login/login",                        as: 'login'
+  get "portals/lifeline",                   as: 'lifeline'
 
   # RESTful routes:
   resources                                 :contacts
