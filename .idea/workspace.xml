@@ -2,22 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/portals/jli.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_top_toolbar_right.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_top_toolbar_right.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/portals/lifeline.html.erb" afterPath="$PROJECT_DIR$/app/views/portals/lifeline.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/portals_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/portals_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/portals/ampride.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/portals/ems.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/portals/landolakes.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/portals/mayo.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/portals/w9.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lifelinei.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370367032830" ignored="false" />
+    <file path="/Dummy.txt" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370369064428" ignored="false" />
     <file path="/login_controller.rb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370196244902" ignored="false" />
     <file path="/login.html.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370196922549" ignored="false" />
-    <file path="/routes.rb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370369033014" ignored="false" />
+    <file path="/routes.rb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370369367921" ignored="false" />
     <file path="/_top_toolbar_right.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370368447245" ignored="false" />
     <file path="/portals_controller.rb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370368701285" ignored="false" />
     <file path="/lifeline.html.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370368264341" ignored="false" />
+    <file path="/mayo.html.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370369434439" ignored="false" />
+    <file path="/ems.html.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370369473297" ignored="false" />
+    <file path="/landolakes.html.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370369511203" ignored="false" />
+    <file path="/ampride.html.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370369542617" ignored="false" />
+    <file path="/w9.html.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370369583848" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,44 +42,7 @@
     <favorites_list name="lifelinei" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="portals_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/portals_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="5" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jli.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/portals/jli.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="53" selection-start="597" selection-end="597" vertical-scroll-proportion="-7.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="75" selection-start="1915" selection-end="1915" vertical-scroll-proportion="0.7006673">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lifeline.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/portals/lifeline.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="30" selection-start="0" selection-end="603" vertical-scroll-proportion="-7.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -98,11 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/layouts/_top_toolbar_left.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_footer_bottom.erb" />
-        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
-        <option value="$PROJECT_DIR$/code.tzt" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_footer.erb" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/app/controllers/login_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/login/_title_bar.erb" />
@@ -114,6 +78,11 @@
         <option value="$PROJECT_DIR$/app/controllers/portals_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/portals/jli.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/portals/mayo.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/portals/ems.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/portals/landolakes.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/portals/ampride.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/portals/w9.html.erb" />
       </list>
     </option>
   </component>
@@ -184,97 +153,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifelinei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifelinei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifelinei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifelinei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifelinei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifelinei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifelinei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifelinei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifelinei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifelinei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1065,7 +944,11 @@
       <created>1370367037426</created>
       <updated>1370367037426</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="added JLI portal">
+      <created>1370369067336</created>
+      <updated>1370369067336</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1134,7 +1017,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new lifeline login iframe." />
+    <option name="LAST_COMMIT_MESSAGE" value="added JLI portal" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1148,7 +1031,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="added survey score methods to survey model." />
     <MESSAGE value="fixed survey mailer to show # of unacceptable scores." />
     <MESSAGE value="Changed About Us menu structure and content." />
     <MESSAGE value="Changed Products menu structure and content." />
@@ -1173,36 +1055,12 @@
     <MESSAGE value="added customer portal iframe." />
     <MESSAGE value="added portals controller" />
     <MESSAGE value="added new lifeline login iframe." />
+    <MESSAGE value="added JLI portal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/_aed_matrix.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/aeds.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/about_us/main.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="42" selection-start="0" selection-end="1143" vertical-scroll-proportion="0.32132426" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/about_us/_title_bar.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="31" selection-start="0" selection-end="627" vertical-scroll-proportion="0.21908471" />
@@ -1250,30 +1108,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/portals_controller.rb">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="5" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/portals/lifeline.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="30" selection-start="0" selection-end="603" vertical-scroll-proportion="-7.5">
+        <state line="47" column="51" selection-start="2061" selection-end="2061" vertical-scroll-proportion="0.67206866">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/portals/jli.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="53" selection-start="597" selection-end="597" vertical-scroll-proportion="-7.5">
+        <state line="12" column="35" selection-start="0" selection-end="597" vertical-scroll-proportion="0.17786561">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/portals_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="75" selection-start="1915" selection-end="1915" vertical-scroll-proportion="0.7006673">
+        <state line="16" column="5" selection-start="281" selection-end="281" vertical-scroll-proportion="0.22878933">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/portals/lifeline.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="30" selection-start="0" selection-end="603" vertical-scroll-proportion="0.17786561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/portals/mayo.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="70" selection-start="599" selection-end="599" vertical-scroll-proportion="0.17786561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/portals/ems.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="79" selection-start="536" selection-end="536" vertical-scroll-proportion="0.14822134">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/portals/landolakes.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="105" selection-start="367" selection-end="367" vertical-scroll-proportion="0.10375494">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/portals/ampride.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="83" selection-start="540" selection-end="540" vertical-scroll-proportion="0.14822134">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/portals/w9.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="149" selection-start="589" selection-end="589" vertical-scroll-proportion="0.17786561">
           <folding />
         </state>
       </provider>

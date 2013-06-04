@@ -39,8 +39,13 @@ Lifelinei::Application.routes.draw do
   get "services/monitor",                   as:   'monitor'
 
   # Customer Portal paths:
-  get "portals/lifeline",                   as: 'lifeline'
+  get 'portals/lifeline',                   as: 'lifeline'
   get 'portals/jli',                        as: 'jli'
+  get 'portals/mayo',                       as: 'mayo'
+  get 'portals/ems',                        as: 'ems'
+  get 'portals/landolakes',                 as: 'landolakes'
+  get 'portals/ampride',                    as: 'ampride'
+  get 'portals/w9',                         as: 'w9'
 
   # RESTful routes:
   resources                                 :contacts
