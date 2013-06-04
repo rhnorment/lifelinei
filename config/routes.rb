@@ -46,6 +46,7 @@ Lifelinei::Application.routes.draw do
   get 'portals/landolakes',                 as: 'landolakes'
   get 'portals/ampride',                    as: 'ampride'
   get 'portals/w9',                         as: 'w9'
+  get 'customers/login',                    as: 'login'
 
   # RESTful routes:
   resources                                 :contacts
