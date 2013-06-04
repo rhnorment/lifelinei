@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/portals/_title_bar.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/portals/lifeline.html.erb" afterPath="$PROJECT_DIR$/app/views/portals/lifeline.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lifelinei.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370366429740" ignored="false" />
+    <file path="/Dummy.txt" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370366742443" ignored="false" />
     <file path="/login_controller.rb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370196244902" ignored="false" />
     <file path="/login.html.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370196922549" ignored="false" />
     <file path="/routes.rb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370366302874" ignored="false" />
     <file path="/_top_toolbar_right.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370366320867" ignored="false" />
     <file path="/portals_controller.rb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370366130914" ignored="false" />
+    <file path="/lifeline.html.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370366993102" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -984,7 +984,11 @@
       <created>1370366434019</created>
       <updated>1370366434019</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="added new lifeline login iframe.">
+      <created>1370366745220</created>
+      <updated>1370366745221</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1053,7 +1057,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added portals controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new lifeline login iframe." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1067,7 +1071,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="added survey migration DB fields." />
     <MESSAGE value="added survey score methods to survey model." />
     <MESSAGE value="fixed survey mailer to show # of unacceptable scores." />
     <MESSAGE value="Changed About Us menu structure and content." />
@@ -1092,6 +1095,7 @@
     <MESSAGE value="fixed image paths in style.css." />
     <MESSAGE value="added customer portal iframe." />
     <MESSAGE value="added portals controller" />
+    <MESSAGE value="added new lifeline login iframe." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1179,7 +1183,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/portals/lifeline.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="80" selection-start="604" selection-end="604" vertical-scroll-proportion="0.19268775">
+        <state line="13" column="74" selection-start="604" selection-end="604" vertical-scroll-proportion="0.19268775">
           <folding />
         </state>
       </provider>
