@@ -28,4 +28,20 @@ class PortalsController < ApplicationController
     @title = 'LifeLine Customer Portal'
   end
 
+  def customerlead
+    @title = 'LifeLine Customer Portal'
+  end
+
+  def aed
+    @title = 'LifeLine Customer Portal'
+  end
+
+  def portalfull
+    @title = 'LifeLine Customer Portal'
+  end
+
+  def maximum
+    @title = 'LifeLine Customer Portal'
+  end
+
 end

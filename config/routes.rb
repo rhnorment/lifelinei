@@ -1,9 +1,8 @@
 Lifelinei::Application.routes.draw do
 
-  resources :users
-
   # Root path:
   root                                      to: 'home#index'
+  match '/w9',                              to: 'portals#w9'
 
   # About Us paths;
   get "about_us/main",                      as:  'about_us'
@@ -45,11 +44,17 @@ Lifelinei::Application.routes.draw do
   get 'portals/ems',                        as: 'ems'
   get 'portals/landolakes',                 as: 'landolakes'
   get 'portals/ampride',                    as: 'ampride'
-  get 'portals/w9',                         as: 'w9'
+  get 'portals/customerlead',               as: 'customerlead'
+  get 'portals/portalfull',                 as: 'portalfull'
+  get 'portals/aed',                        as: 'aed'
+  get 'portals/maximum',                    as: 'maximum'
+
+  # Customer Login paths:
   get 'customers/login',                    as: 'login'
 
   # RESTful routes:
   resources                                 :contacts
   resources                                 :surveys
+  resources                                 :users
 
 end
