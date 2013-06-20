@@ -4,6 +4,7 @@ Lifelinei::Application.routes.draw do
   root                                      to: 'home#index'
   match '/w9',                              to: 'portals#w9'
   match '/login',                           to: 'portals#login'
+  match 'survey' => 'surveys#new',          to: 'new_survey_path'
 
   # About Us paths;
   get "about_us/main",                      as:  'about_us'
@@ -56,7 +57,7 @@ Lifelinei::Application.routes.draw do
 
   # RESTful routes:
   resources                                 :contacts
-  resources                                 :surveys
+  resources                                 :surveys, except: [ :index, :show ]
   resources                                 :users
 
 end

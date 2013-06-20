@@ -1,14 +1,14 @@
 class SurveysController < ApplicationController
 
-  def index
-    @surveys =  Survey.paginate(:page => params[:page]).order('created_at DESC')
-    @title = "Administer all Surveys"
-  end
+  #def index
+  #  @surveys =  Survey.paginate(:page => params[:page]).order('created_at DESC')
+  #  @title = "Administer all Surveys"
+  #end
 
-  def show
-    @survey = Survey.find(params[:id])
-    @title = "Showing Survey #{@survey.id}"
-  end
+  #def show
+  #  @survey = Survey.find(params[:id])
+  #  @title = "Showing Survey #{@survey.id}"
+  #end
 
   def new
     @survey = Survey.new
