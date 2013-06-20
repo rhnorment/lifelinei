@@ -3,6 +3,7 @@ Lifelinei::Application.routes.draw do
   # Root path:
   root                                      to: 'home#index'
   match '/w9',                              to: 'portals#w9'
+  match '/login',                           to: 'portals#login'
 
   # About Us paths;
   get "about_us/main",                      as:  'about_us'
@@ -48,6 +49,7 @@ Lifelinei::Application.routes.draw do
   get 'portals/portalfull',                 as: 'portalfull'
   get 'portals/aed',                        as: 'aed'
   get 'portals/maximum',                    as: 'maximum'
+  get 'portals/login',                      as: 'portal_login'
 
   # Customer Login paths:
   get 'customers/login',                    as: 'login'

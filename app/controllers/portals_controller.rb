@@ -44,4 +44,8 @@ class PortalsController < ApplicationController
     @title = 'LifeLine Customer Portal'
   end
 
+  def login
+    @title = 'Customer Login'
+  end
+
 end
