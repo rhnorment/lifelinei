@@ -44,8 +44,28 @@ class PortalsController < ApplicationController
     @title = 'LifeLine Customer Portal'
   end
 
-  def login
-    @title = 'Customer Login'
+  def optin
+    @title = 'LifeLine Customer Portal'
+  end
+
+  def laws
+    @title = 'State Laws'
+  end
+
+  def trainer_update
+    @title = 'Trainer Update'
+  end
+
+  def accounting
+    @title = 'Accounting'
+  end
+
+  def shipping
+    @title = 'Shipping'
+  end
+
+  def training
+    @title = 'Training'
   end
 
 end

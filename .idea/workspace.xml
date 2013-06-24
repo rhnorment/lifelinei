@@ -2,18 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/portals/customerlead.html.erb" afterPath="$PROJECT_DIR$/app/views/portals/customerlead.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/portals/accounting.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/portals/laws.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/portals/optin.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/portals/shipping.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/portals/trainer_update.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/portals/training.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/portals_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/portals_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lifelinei.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1372089193066" ignored="false" />
+    <file path="/Dummy.txt" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1372089916167" ignored="false" />
     <file path="/login_controller.rb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370196244902" ignored="false" />
     <file path="/login.html.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1371745517925" ignored="false" />
-    <file path="/routes.rb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1372089800843" ignored="false" />
+    <file path="/routes.rb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1372093351387" ignored="false" />
     <file path="/_top_toolbar_right.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370370493154" ignored="false" />
-    <file path="/portals_controller.rb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1371745456085" ignored="false" />
+    <file path="/portals_controller.rb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1372092981850" ignored="false" />
     <file path="/lifeline.html.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370368264341" ignored="false" />
     <file path="/mayo.html.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370369434439" ignored="false" />
     <file path="/ems.html.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370369473297" ignored="false" />
@@ -24,6 +30,11 @@
     <file path="/customerlead.html.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370463463246" ignored="false" />
     <file path="/aed.html.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370463512990" ignored="false" />
     <file path="/surveys_controller.rb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1371749286097" ignored="false" />
+    <file path="/laws.html.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1372090981230" ignored="false" />
+    <file path="/trainer_update.html.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1372093258223" ignored="false" />
+    <file path="/accounting.html.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1372093394985" ignored="false" />
+    <file path="/shipping.html.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1372093473463" ignored="false" />
+    <file path="/training.html.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1372093524445" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,22 +78,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/portals/landolakes.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/portals/ampride.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/portals/w9.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/customers_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/customers/_title_bar.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_top_toolbar_right.erb" />
         <option value="$PROJECT_DIR$/app/views/portals/aed.html.erb" />
         <option value="$PROJECT_DIR$/app/views/portals/portalfull.html.erb" />
         <option value="$PROJECT_DIR$/app/views/portals/maximum.html.erb" />
         <option value="$PROJECT_DIR$/app/views/customers/login.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/portals_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/portals/login.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/surveys_controller.rb" />
         <option value="$PROJECT_DIR$/code.txt" />
         <option value="$PROJECT_DIR$/app/views/portals/customerlead.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/portals/laws.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/portals_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/portals/optin.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/portals/trainer_update.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/portals/accounting.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/portals/training.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/portals/shipping.html.erb" />
       </list>
     </option>
   </component>
@@ -976,28 +987,32 @@
       <created>1371749806130</created>
       <updated>1371749806130</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="changed portal routing.">
+      <created>1372089920440</created>
+      <updated>1372089920440</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="592" y="22" width="1594" height="1418" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18540052" sideWeight="0.3801965" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2009044" sideWeight="0.81557065" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2009044" sideWeight="0.81529146" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18540052" sideWeight="0.3801965" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18442933" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18470855" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16199848" sideWeight="0.999354" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1045,7 +1060,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="created new survey route." />
+    <option name="LAST_COMMIT_MESSAGE" value="changed portal routing." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1059,7 +1074,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="completed implementation menu and content." />
     <MESSAGE value="removed assets directory." />
     <MESSAGE value="changed documentation menu" />
     <MESSAGE value="Need to fix CSS for logo and top menu parent" />
@@ -1084,41 +1098,12 @@
     <MESSAGE value="changed login link." />
     <MESSAGE value="added second login iframe." />
     <MESSAGE value="created new survey route." />
+    <MESSAGE value="changed portal routing." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/portals/mayo.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="28" selection-start="0" selection-end="599" vertical-scroll-proportion="0.17751479" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/portals/portalfull.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="118" selection-start="380" selection-end="380" vertical-scroll-proportion="0.10355029" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/portals/maximum.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="95" selection-start="602" selection-end="602" vertical-scroll-proportion="0.17751479" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_top_toolbar_right.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="43" selection-start="101" selection-end="101" vertical-scroll-proportion="0.047206923" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/portals_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="28" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/portals/aed.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="38" selection-start="0" selection-end="598" vertical-scroll-proportion="-7.5" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/customers/login.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="125" selection-start="268" selection-end="386" vertical-scroll-proportion="0.102239534" />
@@ -1151,16 +1136,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/portals/landolakes.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="39" selection-start="0" selection-end="599" vertical-scroll-proportion="0.17786561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/portals/lifeline.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="12" column="35" selection-start="0" selection-end="603" vertical-scroll-proportion="0.17786561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/portals/optin.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="83" selection-start="605" selection-end="605" vertical-scroll-proportion="0.17786561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/portals/laws.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="30" selection-start="0" selection-end="599" vertical-scroll-proportion="-7.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/portals/trainer_update.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="32" selection-start="0" selection-end="617" vertical-scroll-proportion="0.17786561">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="160" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.28544244">
+        <state line="21" column="65" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.300286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/portals/accounting.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="29" selection-start="0" selection-end="610" vertical-scroll-proportion="0.17786561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/portals/training.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="124" selection-start="379" selection-end="379" vertical-scroll-proportion="0.10375494">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/portals/shipping.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="86" selection-start="606" selection-end="606" vertical-scroll-proportion="0.17786561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/portals_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="39" selection-start="763" selection-end="763" vertical-scroll-proportion="0.62821734">
           <folding />
         </state>
       </provider>
