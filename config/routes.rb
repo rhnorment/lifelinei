@@ -2,8 +2,19 @@ Lifelinei::Application.routes.draw do
 
   # Root path:
   root                                      to: 'home#index'
-  match '/w9',                              to: 'portals#w9'
   match '/login',                           to: 'portals#login'
+  match '/aed',                             to: 'portals#aed'
+  match '/ampride',                         to: 'portals#ampride'
+  match '/customerlead',                    to: 'portals#customerlead'
+  match '/ems',                             to: 'portals#ems'
+  match '/jli',                             to: 'portals#jli'
+  match '/landolakes',                      to: 'portals#landolakes'
+  match '/lifeline',                        to: 'portals#lifeline'
+  match '/maximum',                         to: 'portals#maximum'
+  match '/mayo',                            to: 'portals#mayo'
+  match '/portallfull',                     to: 'portals#portalfull'
+  match '/w9',                              to: 'portals#w9'
+
   match 'survey' => 'surveys#new',          to: 'new_survey_path'
 
   # About Us paths;
