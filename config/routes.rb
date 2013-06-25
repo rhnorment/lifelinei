@@ -12,7 +12,7 @@ Lifelinei::Application.routes.draw do
   match '/lifeline',                        to: 'portals#lifeline'
   match '/maximum',                         to: 'portals#maximum'
   match '/mayo',                            to: 'portals#mayo'
-  match '/portallfull',                     to: 'portals#portalfull'
+  match '/portalfull',                     to: 'portals#portalfull'
   match '/w9',                              to: 'portals#w9'
   match '/optin',                           to: 'portals#optin'
   match '/laws',                            to: 'portals#laws'
