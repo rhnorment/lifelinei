@@ -12,7 +12,7 @@ Lifelinei::Application.routes.draw do
   match '/lifeline',                        to: 'portals#lifeline'
   match '/maximum',                         to: 'portals#maximum'
   match '/mayo',                            to: 'portals#mayo'
-  match '/portalfull',                     to: 'portals#portalfull'
+  match '/portalfull',                      to: 'portals#portalfull'
   match '/w9',                              to: 'portals#w9'
   match '/optin',                           to: 'portals#optin'
   match '/laws',                            to: 'portals#laws'
@@ -20,6 +20,10 @@ Lifelinei::Application.routes.draw do
   match '/accounting',                      to: 'portals#accounting'
   match '/shipping',                        to: 'portals#shipping'
   match '/training',                        to: 'portals#training'
+  match '/budget',                          to: 'portals#budget'
+  match '/compliance',                      to: 'portals#compliance'
+  match '/pasttraining',                    to: 'portals#past_training'
+  match '/futuretraining',                  to: 'portals#future_training'
 
 
   match 'survey' => 'surveys#new',          to: 'new_survey_path'

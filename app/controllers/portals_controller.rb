@@ -68,4 +68,20 @@ class PortalsController < ApplicationController
     @title = 'Training'
   end
 
+  def budget
+    @title = 'Budget Items'
+  end
+
+  def compliance
+    @title = 'Compliance Report'
+  end
+
+  def past_training
+    @title = 'Past Training'
+  end
+
+  def future_training
+    @title = 'Future Training'
+  end
+
 end
