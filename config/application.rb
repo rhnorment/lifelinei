@@ -56,9 +56,6 @@ module Lifelinei
     # Enable the asset pipeline
     config.assets.enabled = false
 
-    # Cookie fix for IE in an iframe:
-    config.middleware.insert_before ActionDispatch::Session::CookieStore, Rack::P3p
-
     # Version of your assets, change this if you want to expire all your assets
     # config.assets.version = '1.0'
   end
