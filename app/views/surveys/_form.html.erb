@@ -16,7 +16,7 @@
     <%= f.select :conditions_rating, Survey::RATING, label: "5.  Was the facility and room condition conducive for learning?",  prompt: "Select (1..10)" %>
     <%= f.text_area :conditions_comment, label: "Comments" %>
 
-    <%= f.select :opinion_rating, Survey::RATING, label: "6.  What is your over all opinion of the training you received today?",  prompt: "Select (1..10)" %>
+    <%= f.select :opinion_rating, Survey::RATING, label: "6.  What is your over all opinion of the training you received?",  prompt: "Select (1..10)" %>
     <%= f.text_area :opinion_comment, label: "Comments" %>
 
     <%= f.submit "Send Survey Results", class: 'ka-form-submit' %>

@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/portals/ampride.html.erb" afterPath="$PROJECT_DIR$/app/views/portals/ampride.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/portals/ems.html.erb" afterPath="$PROJECT_DIR$/app/views/portals/ems.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/portals/jli.html.erb" afterPath="$PROJECT_DIR$/app/views/portals/jli.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/portals/landolakes.html.erb" afterPath="$PROJECT_DIR$/app/views/portals/landolakes.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/portals/laws.html.erb" afterPath="$PROJECT_DIR$/app/views/portals/laws.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/lifelinei.iml" afterPath="$PROJECT_DIR$/.idea/lifelinei.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/portals/maximum.html.erb" afterPath="$PROJECT_DIR$/app/views/portals/maximum.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/portals/mayo.html.erb" afterPath="$PROJECT_DIR$/app/views/portals/mayo.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/portals_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/portals_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/session_store.rb" afterPath="$PROJECT_DIR$/config/initializers/session_store.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/portals/w9.html.erb" afterPath="$PROJECT_DIR$/app/views/portals/w9.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/surveys/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/surveys/_form.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lifelinei.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1372357452350" ignored="false" />
+    <file path="/Dummy.txt" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1372358868952" ignored="false" />
     <file path="/login_controller.rb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370196244902" ignored="false" />
     <file path="/login.html.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1371745517925" ignored="false" />
     <file path="/routes.rb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1372185743008" ignored="false" />
@@ -93,7 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/portals/future_training.html.erb" />
         <option value="$PROJECT_DIR$/app/views/portals/past_training.html.erb" />
         <option value="$PROJECT_DIR$/app/views/portals/compliance.html.erb" />
         <option value="$PROJECT_DIR$/app/views/portals/budget.html.erb" />
@@ -109,6 +96,7 @@
         <option value="$PROJECT_DIR$/app/views/portals/ems.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/portals_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/portals/maximum.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/surveys/_form.html.erb" />
       </list>
     </option>
   </component>
@@ -168,20 +156,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lifelinei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifelinei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifelinei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1030,28 +1004,32 @@
       <created>1372286747674</created>
       <updated>1372286747674</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="changed portal names.">
+      <created>1372358872066</created>
+      <updated>1372358872066</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="584" y="22" width="1594" height="1418" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18540052" sideWeight="0.3801965" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2112403" sideWeight="0.81557065" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2112403" sideWeight="0.81529146" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18540052" sideWeight="0.3801965" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18442933" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18470855" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16199848" sideWeight="0.999354" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1099,7 +1077,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added P3P gem for IE cookies." />
+    <option name="LAST_COMMIT_MESSAGE" value="changed portal names." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1113,7 +1091,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="fixed User password model" />
     <MESSAGE value="fixed user survey to completion." />
     <MESSAGE value="added phone and contact us link to top_header and bottom_footer." />
     <MESSAGE value="changed home page images and subtitles." />
@@ -1138,21 +1115,12 @@
     <MESSAGE value="changed titles on a few portals." />
     <MESSAGE value="added new internal portal iframes." />
     <MESSAGE value="added P3P gem for IE cookies." />
+    <MESSAGE value="changed portal names." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/portals/past_training.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="33" selection-start="293" selection-end="293" vertical-scroll-proportion="0.10243902" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/portals/compliance.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="33" selection-start="297" selection-end="297" vertical-scroll-proportion="0.10243902" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/portals/budget.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="38" selection-start="562" selection-end="562" vertical-scroll-proportion="0.17560975" />
@@ -1243,6 +1211,20 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/portals_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="142" selection-start="381" selection-end="381" vertical-scroll-proportion="0.41389152">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/surveys/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="48" selection-start="1532" selection-end="1532" vertical-scroll-proportion="0.3409091">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/surveys/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
