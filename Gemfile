@@ -13,7 +13,7 @@ end
 group :production do
   gem 'pg'
   gem 'thin'
-  gem 'exception_notification'
+  gem 'exception_notification', :require => 'exception_notifier'
 end
 
 gem 'jquery-rails'
