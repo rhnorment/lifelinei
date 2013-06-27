@@ -33,7 +33,7 @@ class PortalsController < ApplicationController
   end
 
   def aed
-    @title = 'LifeLine Customer Portal'
+    @title = 'AED Registration'
   end
 
   def portalfull
