@@ -5,27 +5,27 @@ class PortalsController < ApplicationController
   end
 
   def jli
-    @title = 'LifeLine Customer Portal'
+    @title = 'Activar - JL Industries'
   end
 
   def mayo
-    @title = 'LifeLine Customer Portal'
+    @title = 'Mayo Clinics'
   end
 
   def ems
-    @title = 'LifeLine Customer Portal'
+    @title = 'EMS'
   end
 
   def landolakes
-    @title = 'LifeLine Customer Portal'
+    @title = "Land O'Lakes"
   end
 
   def ampride
-    @title = 'LifeLine Customer Portal'
+    @title = 'AmeriPride'
   end
 
   def w9
-    @title = 'LifeLine Customer Portal'
+    @title = 'W9'
   end
 
   def customerlead
@@ -41,15 +41,15 @@ class PortalsController < ApplicationController
   end
 
   def maximum
-    @title = 'LifeLine Customer Portal'
+    @title = 'Maximum First Aid'
   end
 
   def optin
-    @title = 'LifeLine Customer Portal'
+    @title = 'Opt In'
   end
 
   def laws
-    @title = 'State Laws'
+    @title = 'Laws & Statutes'
   end
 
   def trainer_update

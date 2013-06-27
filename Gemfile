@@ -21,8 +21,6 @@ gem 'mail'
 gem 'watu_table_builder', :require => 'table_builder'
 gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'will_paginate', '3.0.3'
-gem 'rack-p3p'
-
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
