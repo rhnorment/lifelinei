@@ -62,8 +62,8 @@ Lifelinei::Application.configure do
   config.active_support.deprecation = :notify
 
   Lifelinei::Application.config.middleware.use ExceptionNotifier,
-                                              :email_prefix => "[Error] ",
-                                              :sender_address => %{"notifier" <notifier@lifelinei.com>},
+                                              :email_prefix => 'Error]',
+                                              :sender_address => %{'notifier' <support@lifelinei.com>},
                                               :exception_recipients => %w{norment@gmail.com}
 
   # Log the query plan for queries taking more than this (works

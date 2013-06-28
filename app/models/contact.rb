@@ -15,7 +15,6 @@
 class Contact < ActiveRecord::Base
 
   # class attributes:
-  # class attributes:
   attr_accessible :company, :email, :message, :name, :phone
 
   # constant variables:
@@ -24,6 +23,5 @@ class Contact < ActiveRecord::Base
   # data validations:
   validates         :name,  :company, :email, :phone, :message, :presence => true
   validates         :email, format: { with: VALID_EMAIL_REGEX }
-
 
 end
