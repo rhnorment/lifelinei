@@ -1,5 +1,5 @@
 ActionMailer::Base.smtp_settings = {
-    :address => 'smtp.secureserver.net',
+    :address => 'smtpout.secureserver.net',
     :port => 80,
     :domain => 'lifelinei.com',
     :user_name => 'support@lifelinei.com',
