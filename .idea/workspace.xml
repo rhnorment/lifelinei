@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/portals/privacy.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/portals/useragreement.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_footer_bottom.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_footer_bottom.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/portals_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/portals_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lifelinei.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1373647943858" ignored="false" />
+    <file path="/Dummy.txt" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1373648837362" ignored="false" />
     <file path="/login_controller.rb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370196244902" ignored="false" />
     <file path="/login.html.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1371745517925" ignored="false" />
     <file path="/routes.rb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1373648525600" ignored="false" />
@@ -45,7 +41,7 @@
     <file path="/production.rb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1372441172791" ignored="false" />
     <file path="/setup_mail.rb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1372443851055" ignored="false" />
     <file path="/_footer.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1372805968763" ignored="false" />
-    <file path="/_footer_bottom.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1373648571124" ignored="false" />
+    <file path="/_footer_bottom.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1373649042520" ignored="false" />
     <file path="/useragreement.html.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1373648271337" ignored="false" />
     <file path="/privacy.html.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1373648335286" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,17 +62,7 @@
     <favorites_list name="lifelinei" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="privacy.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/portals/privacy.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="90" selection-start="605" selection-end="605" vertical-scroll-proportion="0.17786561">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -177,24 +163,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lifelinei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifelinei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifelinei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1106,7 +1074,11 @@
       <created>1373647947228</created>
       <updated>1373647947228</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="changed session management to database.">
+      <created>1373648840955</created>
+      <updated>1373648840956</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1315,16 +1287,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer_bottom.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/portals/privacy.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="72" selection-start="719" selection-end="719" vertical-scroll-proportion="0.24878049">
+        <state line="12" column="78" selection-start="605" selection-end="605" vertical-scroll-proportion="0.17786561">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/portals/privacy.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer_bottom.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="90" selection-start="605" selection-end="605" vertical-scroll-proportion="0.17786561">
+        <state line="16" column="91" selection-start="734" selection-end="734" vertical-scroll-proportion="0.23414634">
           <folding />
         </state>
       </provider>
