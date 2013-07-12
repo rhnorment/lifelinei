@@ -2,18 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_footer.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/portals/privacy.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/portals/useragreement.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_footer_bottom.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_footer_bottom.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/portals_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/portals_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lifelinei.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1373646928554" ignored="false" />
+    <file path="/Dummy.txt" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1373647943858" ignored="false" />
     <file path="/login_controller.rb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370196244902" ignored="false" />
     <file path="/login.html.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1371745517925" ignored="false" />
-    <file path="/routes.rb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1372185743008" ignored="false" />
+    <file path="/routes.rb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1373648525600" ignored="false" />
     <file path="/_top_toolbar_right.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370370493154" ignored="false" />
-    <file path="/portals_controller.rb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1372368290522" ignored="false" />
+    <file path="/portals_controller.rb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1373648207599" ignored="false" />
     <file path="/lifeline.html.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1370368264341" ignored="false" />
     <file path="/mayo.html.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1372357725863" ignored="false" />
     <file path="/ems.html.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1372358733332" ignored="false" />
@@ -42,7 +45,9 @@
     <file path="/production.rb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1372441172791" ignored="false" />
     <file path="/setup_mail.rb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1372443851055" ignored="false" />
     <file path="/_footer.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1372805968763" ignored="false" />
-    <file path="/_footer_bottom.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1373647701953" ignored="false" />
+    <file path="/_footer_bottom.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1373648571124" ignored="false" />
+    <file path="/useragreement.html.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1373648271337" ignored="false" />
+    <file path="/privacy.html.erb" changelist="e68bc214-b1db-45ec-85a7-2e9b1db7cb4a" time="1373648335286" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +66,17 @@
     <favorites_list name="lifelinei" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="privacy.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/portals/privacy.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="90" selection-start="605" selection-end="605" vertical-scroll-proportion="0.17786561">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -87,13 +102,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/portals/laws.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/portals/landolakes.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/portals/ems.html.erb" />
         <option value="$PROJECT_DIR$/app/views/portals/maximum.html.erb" />
         <option value="$PROJECT_DIR$/app/views/surveys/_form.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/controllers/portals_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/portals/aed.html.erb" />
         <option value="$PROJECT_DIR$/app/models/contact.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
@@ -101,8 +112,12 @@
         <option value="$PROJECT_DIR$/app/views/contact_mailer/contact_message.text.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_head_tag.erb" />
         <option value="$PROJECT_DIR$/config/initializers/session_store.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_footer_bottom.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_footer.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/portals_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/portals/useragreement.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/portals/privacy.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_footer_bottom.erb" />
       </list>
     </option>
   </component>
@@ -162,6 +177,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lifelinei" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifelinei" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifelinei" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1069,7 +1102,11 @@
       <created>1373646939878</created>
       <updated>1373646939878</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="changed session management to database.">
+      <created>1373647947228</created>
+      <updated>1373647947228</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1179,39 +1216,17 @@
     <MESSAGE value="changed session management to database." />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/config/routes.rb</url>
+          <line>30</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/contact.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="63" selection-start="685" selection-end="685" vertical-scroll-proportion="0.27842227" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="87" selection-start="2538" selection-end="2538" vertical-scroll-proportion="0.7528958" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/user_mailer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/setup_mail.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="22" selection-start="354" selection-end="354" vertical-scroll-proportion="0.11600928" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/contact_mailer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contact_mailer/contact_confirmation.text.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/contact_mailer/contact_message.text.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="33" selection-start="259" selection-end="259" vertical-scroll-proportion="0.14162077" />
@@ -1258,16 +1273,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer_bottom.erb">
+    <entry file="file://$PROJECT_DIR$/config/initializers/session_store.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="55" selection-start="745" selection-end="745" vertical-scroll-proportion="0.24878049">
+        <state line="8" column="42" selection-start="418" selection-end="418" vertical-scroll-proportion="0.114394665">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/session_store.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/portals/ems.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="42" selection-start="418" selection-end="418" vertical-scroll-proportion="0.114394665">
+        <state line="12" column="33" selection-start="0" selection-end="586" vertical-scroll-proportion="0.17786561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/portals/useragreement.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="64" selection-start="603" selection-end="603" vertical-scroll-proportion="0.17786561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/portals_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="21" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.957102">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/portals/shipping.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="29" selection-start="0" selection-end="606" vertical-scroll-proportion="0.17786561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="56" selection-start="4080" selection-end="4080" vertical-scroll-proportion="0.78551">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer_bottom.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="72" selection-start="719" selection-end="719" vertical-scroll-proportion="0.24878049">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/portals/privacy.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="90" selection-start="605" selection-end="605" vertical-scroll-proportion="0.17786561">
           <folding />
         </state>
       </provider>

@@ -24,6 +24,8 @@ Lifelinei::Application.routes.draw do
   match '/compliance',                      to: 'portals#compliance'
   match '/pasttraining',                    to: 'portals#past_training'
   match '/futuretraining',                  to: 'portals#future_training'
+  match '/useragreement',                   to: 'portals#useragreement'
+  match '/privacy',                         to: 'portals#privacy'
 
 
   match 'survey' => 'surveys#new',          to: 'new_survey_path'
@@ -73,6 +75,8 @@ Lifelinei::Application.routes.draw do
   get 'portals/aed',                        as: 'aed'
   get 'portals/maximum',                    as: 'maximum'
   get 'portals/login',                      as: 'portal_login'
+  get 'portals/useragreement',              as: 'useragreement'
+  get 'portals/privacy',                    as: 'privacy'
 
   # Customer Login paths:
   get 'customers/login',                    as: 'login'

@@ -84,4 +84,12 @@ class PortalsController < ApplicationController
     @title = 'Future Training'
   end
 
+  def useragreement
+    @title = 'Terms'
+  end
+
+  def privacy
+    @title = 'Privacy'
+  end
+
 end
